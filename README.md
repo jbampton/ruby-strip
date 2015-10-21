@@ -1,4 +1,4 @@
-# Ruby Whitespace stripper command line application
+# Ruby white space strip command line application
 
 This program uses Ruby and runs on the command line and accepts a single argument, a folder path name.
 
@@ -19,7 +19,7 @@ So far it has been checked against these file types:
     - *.rb
     
     
-Coming from a PHP background where leading and trailing whitespace can sometimes be problematic I thought I would be 
+Coming from a PHP background where leading and trailing white space can sometimes be problematic I thought I would be 
 interesting to build a command line tool in Ruby (my first command line tool in Ruby)
     
 To run simply clone this repo and then open a terminal and navigate to the directory where you cloned to.
