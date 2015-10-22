@@ -35,4 +35,9 @@ The two commands that were run to produce the sample output were:
   - ruby ruby-strip.rb random-test-files
 
 
+
+RubyInstaller for Windows - http://rubyinstaller.org/
+
+Ruby Version Manager (RVM) - https://rvm.io/
+
     
