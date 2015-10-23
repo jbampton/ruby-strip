@@ -34,10 +34,26 @@ The two commands that were run to produce the sample output were:
 
   - ruby ruby-strip.rb random-test-files
 
+The code uses the 'fileutils' gem so you must install it, if not already installed.
 
+Open a terminal and type: gem install fileutils
+
+To see the current Gems that are installed on your system type: gem list --local
+
+Another way to see the installed gems is to type: gem server
+
+This will bring up a locally served web page at http://localhost:8808/ listing information about all the gems.
+
+Type: gem -h  for more information on the gem command.
+
+We also need Ruby so type: ruby -v 
+
+This will print the current installed ruby version.
+
+The links below show how to install Ruby on your system.
 
 RubyInstaller for Windows - http://rubyinstaller.org/
 
 Ruby Version Manager (RVM) - https://rvm.io/
 
-    
+Installing Ruby - https://www.ruby-lang.org/en/documentation/installation/    
