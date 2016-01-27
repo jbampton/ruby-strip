@@ -54,7 +54,15 @@ The links below show how to install Ruby on your system.
 
 RubyInstaller for Windows - http://rubyinstaller.org/
 
+JetBrains RubyMine - https://www.jetbrains.com/ruby/
+
 Ruby Version Manager (RVM) - https://rvm.io/
+
+Ruby Programming Language - https://www.ruby-lang.org/en/
+
+The Ruby Toolbox - https://www.ruby-toolbox.com/
+
+Ruby regular expression editor - http://rubular.com/
 
 Installing Ruby - https://www.ruby-lang.org/en/documentation/installation/   
 
