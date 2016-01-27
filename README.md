@@ -63,3 +63,9 @@ Ruby success stories - https://www.ruby-lang.org/en/documentation/success-storie
 Ruby Motion success stories - http://www.rubymotion.com/references/success-stories/
 
 The Top Ruby Jobs - https://toprubyjobs.com/
+
+Australian companies using Rails - https://github.com/rails-oceania/roro/wiki/Australian-Companies-using-Ruby-on-Rails
+
+Codecademy - Learn the Command Line - https://www.codecademy.com/courses/learn-the-command-line
+
+Got 15 minutes and want to learn Git? https://try.github.io/levels/1/challenges/1
