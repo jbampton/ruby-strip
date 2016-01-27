@@ -56,4 +56,10 @@ RubyInstaller for Windows - http://rubyinstaller.org/
 
 Ruby Version Manager (RVM) - https://rvm.io/
 
-Installing Ruby - https://www.ruby-lang.org/en/documentation/installation/    
+Installing Ruby - https://www.ruby-lang.org/en/documentation/installation/   
+
+Ruby success stories - https://www.ruby-lang.org/en/documentation/success-stories/
+
+Ruby Motion success stories - http://www.rubymotion.com/references/success-stories/
+
+The Top Ruby Jobs - https://toprubyjobs.com/
