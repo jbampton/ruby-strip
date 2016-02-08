@@ -11,11 +11,11 @@ def strip_white_space(src)
   end
 
   Dir.glob('output/**/*.*').each do |filename|
-    file = File.open(filename,'r')
+    file = File.open(filename,'r+')
     contents = file.read
     strip_contents = contents.strip
-    file.close
-    file =  File.open(filename,'w')
+    file.rewind
+    file.truncate(0)
     file.write(strip_contents)
     file.close
   end
