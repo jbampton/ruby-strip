@@ -38,19 +38,76 @@ The code uses the 'fileutils' gem so you must install it, if not already install
 
 Open a terminal and type: gem install fileutils
 
-To see the current Gems that are installed on your system type: gem list --local
+Type: gem -h  for more information on the gem command.
+
+![gem -h](documentation/images/terminal/gem-h.png)
+
+To see the current Gems that are installed on your system type: 
+
+gem list --local
+
+![gem list --local](documentation/images/terminal/gem-list-local.png)
 
 Another way to see the installed gems is to type: gem server
 
+![gem server](documentation/images/terminal/gem-server.png)
+
 This will bring up a locally served web page at http://localhost:8808/ listing information about all the gems.
 
-Type: gem -h  for more information on the gem command.
 
-We also need Ruby so type: ruby -v 
 
-This will print the current installed ruby version.
+##RVM Usage
 
-The links below show how to install Ruby on your system.
+Open a terminal and type the following commands:
+
+rvm list known
+
+![rvm list known](documentation/images/terminal/rvm-list-known.png)
+
+ruby -v 
+
+![ruby -v](documentation/images/terminal/ruby-v.png)
+
+This will print the current default system installed ruby version.
+
+To install a new Ruby inside rvm, type:
+
+rvm install ruby-2.2.1
+
+![rvm install ruby 2.2.1](documentation/images/terminal/rvm-install-ruby-2.2.1.png)
+
+Entering the next command will show which Rubies are installed inside RVM
+
+rvm list
+
+![rvm list](documentation/images/terminal/rvm-list.png)
+
+Followed by: 
+
+ruby -v
+
+![rvm ruby -v](documentation/images/terminal/rvm-ruby-v.png)
+
+You can see the the RVM installed Ruby is now the system default.
+
+If you would like to switch back to the original system installed Ruby type:
+
+rvm use system
+
+ruby -v
+
+![rvm use system](documentation/images/terminal/rvm-use-system.png)
+
+To switch back to using an RVM Ruby type:
+
+rvm use ruby-2.2.1
+
+ruby -v
+
+![](documentation/images/terminal/rvm-use-ruby-2.2.1.png)
+
+
+##Resources used on this project and helpful links
 
 RubyInstaller for Windows - http://rubyinstaller.org/
 
@@ -76,4 +133,6 @@ Australian companies using Rails - https://github.com/rails-oceania/roro/wiki/Au
 
 Codecademy - Learn the Command Line - https://www.codecademy.com/courses/learn-the-command-line
 
-Got 15 minutes and want to learn Git? https://try.github.io/levels/1/challenges/1
+CodeSchool - Got 15 minutes and want to learn Git? https://try.github.io/levels/1/challenges/1
+
+Codecademy - Learn Ruby - https://www.codecademy.com/learn/ruby
