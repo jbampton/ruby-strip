@@ -34,19 +34,28 @@ The two commands that were run to produce the sample output were:
 
   - ruby ruby-strip.rb random-test-files
 
-The code uses the 'fileutils' gem so you must install it, if not already installed.
 
-Open a terminal and type: gem install fileutils
+##Mac OS X instructions
 
-Type: gem -h  for more information on the gem command.
+When using the commands below in a terminal you may have to prepend them with - sudo
 
-![gem -h](documentation/images/terminal/gem-h.png)
+The code uses the 'fileutils' gem so you must install it, if not already installed.  The 'fileutils' gem requires imagemagick to be installed.
+
+I used Homebrew to install imagemagick.  The command would be:
+
+brew install imagemagick
+
+![brew install imagemagick](documentation/images/terminal/brew-install-imagemagick.png)
+
+Open a terminal and type: 
+
+gem install fileutils
 
 To see the current Gems that are installed on your system type: 
 
-gem list --local
+gem list --local  
 
-![gem list --local](documentation/images/terminal/gem-list-local.png)
+![gem install fileutils](documentation/images/terminal/gem-install-fileutils.png)
 
 Another way to see the installed gems is to type: gem server
 
@@ -54,6 +63,9 @@ Another way to see the installed gems is to type: gem server
 
 This will bring up a locally served web page at http://localhost:8808/ listing information about all the gems.
 
+Type: gem -h  for more information on the gem command.
+
+![gem -h](documentation/images/terminal/gem-h.png)
 
 
 ##RVM Usage
@@ -104,12 +116,14 @@ rvm use ruby-2.2.1
 
 ruby -v
 
-![](documentation/images/terminal/rvm-use-ruby-2.2.1.png)
+![rvm use ruby-2.2.1](documentation/images/terminal/rvm-use-ruby-2.2.1.png)
 
 
 ##Resources used on this project and helpful links
 
 RubyInstaller for Windows - http://rubyinstaller.org/
+
+Homebrew — The missing package manager for OS X - http://brew.sh/
 
 JetBrains RubyMine - https://www.jetbrains.com/ruby/
 
@@ -136,3 +150,15 @@ Codecademy - Learn the Command Line - https://www.codecademy.com/courses/learn-t
 CodeSchool - Got 15 minutes and want to learn Git? https://try.github.io/levels/1/challenges/1
 
 Codecademy - Learn Ruby - https://www.codecademy.com/learn/ruby
+
+IDE - Integrated Development Environment - https://en.wikipedia.org/wiki/Integrated_development_environment
+
+Git (software) - https://en.wikipedia.org/wiki/Git_(software)
+
+man page - https://en.wikipedia.org/wiki/Man_page
+
+Terminal (OS X) - https://en.wikipedia.org/wiki/Terminal_(OS_X)
+
+Essential programmer training - http://www.codewars.com/
+
+Mastering Markdown - https://guides.github.com/features/mastering-markdown/
