@@ -63,6 +63,8 @@ Another way to see the installed gems is to type: gem server
 
 This will bring up a locally served web page at http://localhost:8808/ listing information about all the gems.
 
+![gem server webpage](documentation/images/terminal/gem-server-webpage.png)
+
 Type: gem -h  for more information on the gem command.
 
 ![gem -h](documentation/images/terminal/gem-h.png)
