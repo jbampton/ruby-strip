@@ -1,6 +1,12 @@
 # Ruby white space strip command line application
 
-This program uses Ruby and runs on the command line and accepts a single argument, a folder path name.
+This program uses **Ruby Power**..... For those of you who don't know much about Ruby....
+
+Here's **Ruby** in five seconds....to quote wikiepdia...
+
+Ruby was accepted as a Japanese Industrial Standard (JIS X 3017) in 2011[25] and an international standard (ISO/IEC 30170) in 2012.
+
+This program runs on the command line and accepts a single argument, a folder path name.
 
 It checks this folder recursively through all sub folders and files for leading and trailing whitespace.
 
