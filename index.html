@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Ruby-strip by jbampton</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/jbampton/ruby-strip">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Ruby-strip</h1>
+            <h2>Strip leading and trailing white space (whitespace) from any folder of files - Ruby command line application</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/jbampton/ruby-strip/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/jbampton/ruby-strip/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="ruby-white-space-strip-command-line-application" class="anchor" href="#ruby-white-space-strip-command-line-application" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ruby white space strip command line application</h1>
+
+<p>This program uses Ruby and runs on the command line and accepts a single argument, a folder path name.</p>
+
+<p>It checks this folder recursively through all sub folders and files for leading and trailing whitespace.</p>
+
+<p>It removes all the excess leading and trailing whitespace and copies the folder contents to this projects 'output' directory.</p>
+
+<p>So far it has been checked against these file types:</p>
+
+<pre><code>- *.c
+- *.xml
+- *.xsl
+- *.txt
+- *.php
+- *.html
+- *.py
+- *.css
+- *.rb
+</code></pre>
+
+<p>Coming from a PHP background where leading and trailing white space can sometimes be problematic I thought it would be 
+interesting to build a command line tool in Ruby (my first command line tool in Ruby)</p>
+
+<p>To run simply clone this repo and then open a terminal and navigate to the directory where you cloned to.</p>
+
+<p>Then simply run: ruby ruby-strip.rb path/to/folder </p>
+
+<p>This should copy the folder to the 'output' directory.  There are currently two test folders for input and output.</p>
+
+<p>The two commands that were run to produce the sample output were:</p>
+
+<ul>
+<li><p>ruby ruby-strip.rb php-test-files </p></li>
+<li><p>ruby ruby-strip.rb random-test-files</p></li>
+</ul>
+
+<h2>
+<a id="mac-os-x-instructions" class="anchor" href="#mac-os-x-instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mac OS X instructions</h2>
+
+<p>When using the commands below in a terminal you may have to prepend them with - sudo</p>
+
+<p>The code uses the 'fileutils' gem so you must install it, if not already installed.  The 'fileutils' gem requires imagemagick to be installed.</p>
+
+<p>I used Homebrew to install imagemagick.  The command would be:</p>
+
+<h3>
+<a id="brew-install-imagemagick" class="anchor" href="#brew-install-imagemagick" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>brew install imagemagick</h3>
+
+<p><img src="documentation/images/terminal/homebrew/brew-install-imagemagick.png" alt="brew install imagemagick"></p>
+
+<p>Open a terminal and type: </p>
+
+<h3>
+<a id="gem-install-fileutils" class="anchor" href="#gem-install-fileutils" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem install fileutils</h3>
+
+<p>To see the current Gems that are installed on your system type: </p>
+
+<h3>
+<a id="gem-list---local" class="anchor" href="#gem-list---local" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem list --local</h3>
+
+<p><img src="documentation/images/terminal/ruby/gem-install-fileutils.png" alt="gem install fileutils"></p>
+
+<p>Another way to see the installed gems is to type: </p>
+
+<h3>
+<a id="gem-server" class="anchor" href="#gem-server" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem server</h3>
+
+<p><img src="documentation/images/terminal/ruby/gem-server.png" alt="gem server"></p>
+
+<p>This will bring up a locally served web page at http://localhost:8808/ listing information about all the gems.</p>
+
+<p><img src="documentation/images/terminal/ruby/gem-server-webpage.png" alt="gem server webpage"></p>
+
+<p>Type: </p>
+
+<h3>
+<a id="gem--h" class="anchor" href="#gem--h" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem -h</h3>
+
+<p>for more information on the gem command.</p>
+
+<p><img src="documentation/images/terminal/ruby/gem-h.png" alt="gem -h"></p>
+
+<h2>
+<a id="rvm-usage" class="anchor" href="#rvm-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RVM Usage</h2>
+
+<p>Open a terminal and type the following commands:</p>
+
+<h3>
+<a id="rvm-list-known" class="anchor" href="#rvm-list-known" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>rvm list known</h3>
+
+<p><img src="documentation/images/terminal/rvm/rvm-list-known.png" alt="rvm list known"></p>
+
+<h3>
+<a id="ruby--v" class="anchor" href="#ruby--v" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
+
+<p><img src="documentation/images/terminal/ruby/ruby-v.png" alt="ruby -v"></p>
+
+<p>This will print the current default system installed ruby version.</p>
+
+<p>To install a new Ruby inside rvm, type:</p>
+
+<h3>
+<a id="rvm-install-ruby-221" class="anchor" href="#rvm-install-ruby-221" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>rvm install ruby-2.2.1</h3>
+
+<p><img src="documentation/images/terminal/rvm/rvm-install-ruby-2.2.1.png" alt="rvm install ruby 2.2.1"></p>
+
+<p>Entering the next command will show which Rubies are installed inside RVM</p>
+
+<h3>
+<a id="rvm-list" class="anchor" href="#rvm-list" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>rvm list</h3>
+
+<p><img src="documentation/images/terminal/rvm/rvm-list.png" alt="rvm list"></p>
+
+<p>Followed by: </p>
+
+<h3>
+<a id="ruby--v-1" class="anchor" href="#ruby--v-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
+
+<p><img src="documentation/images/terminal/rvm/rvm-ruby-v.png" alt="rvm ruby -v"></p>
+
+<p>You can see the the RVM installed Ruby is now the system default.</p>
+
+<p>If you would like to switch back to the original system installed Ruby type:</p>
+
+<h3>
+<a id="rvm-use-system" class="anchor" href="#rvm-use-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>rvm use system</h3>
+
+<h3>
+<a id="ruby--v-2" class="anchor" href="#ruby--v-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
+
+<p><img src="documentation/images/terminal/rvm/rvm-use-system.png" alt="rvm use system"></p>
+
+<p>To switch back to using an RVM Ruby type:</p>
+
+<h3>
+<a id="rvm-use-ruby-221" class="anchor" href="#rvm-use-ruby-221" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>rvm use ruby-2.2.1</h3>
+
+<h3>
+<a id="ruby--v-3" class="anchor" href="#ruby--v-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
+
+<p><img src="documentation/images/terminal/rvm/rvm-use-ruby-2.2.1.png" alt="rvm use ruby-2.2.1"></p>
+
+<h2>
+<a id="homebrew-usage" class="anchor" href="#homebrew-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Homebrew usage</h2>
+
+<p>Open a terminal and type:</p>
+
+<h3>
+<a id="man-brew" class="anchor" href="#man-brew" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>man brew</h3>
+
+<p><img src="documentation/images/terminal/homebrew/man_brew.png" alt="man brew"></p>
+
+<p><strong>Before using Homebrew you should ensure it's up to date. Run the next command:</strong></p>
+
+<h3>
+<a id="brew-doctor" class="anchor" href="#brew-doctor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>brew doctor</h3>
+
+<p><img src="documentation/images/terminal/homebrew/brew_doctor.png" alt="brew doctor"></p>
+
+<h2>
+<a id="brew-update" class="anchor" href="#brew-update" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>brew update</h2>
+
+<p><img src="documentation/images/terminal/homebrew/brew_update.png" alt="brew update"></p>
+
+<h3>
+<a id="brew-list" class="anchor" href="#brew-list" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>brew list</h3>
+
+<p><img src="documentation/images/terminal/homebrew/brew_list.png" alt="brew list"></p>
+
+<h2>
+<a id="resources-used-on-this-project-and-helpful-links" class="anchor" href="#resources-used-on-this-project-and-helpful-links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources used on this project and helpful links</h2>
+
+<p>RubyInstaller for Windows - <a href="http://rubyinstaller.org/">http://rubyinstaller.org/</a></p>
+
+<p>Homebrew — The missing package manager for OS X - <a href="http://brew.sh/">http://brew.sh/</a></p>
+
+<p>JetBrains RubyMine - <a href="https://www.jetbrains.com/ruby/">https://www.jetbrains.com/ruby/</a></p>
+
+<p>Ruby Version Manager (RVM) - <a href="https://rvm.io/">https://rvm.io/</a></p>
+
+<p>Ruby Programming Language - <a href="https://www.ruby-lang.org/en/">https://www.ruby-lang.org/en/</a></p>
+
+<p>The Ruby Toolbox - <a href="https://www.ruby-toolbox.com/">https://www.ruby-toolbox.com/</a></p>
+
+<p>Ruby regular expression editor - <a href="http://rubular.com/">http://rubular.com/</a></p>
+
+<p>Installing Ruby - <a href="https://www.ruby-lang.org/en/documentation/installation/">https://www.ruby-lang.org/en/documentation/installation/</a>   </p>
+
+<p>Ruby success stories - <a href="https://www.ruby-lang.org/en/documentation/success-stories/">https://www.ruby-lang.org/en/documentation/success-stories/</a></p>
+
+<p>Ruby Motion success stories - <a href="http://www.rubymotion.com/references/success-stories/">http://www.rubymotion.com/references/success-stories/</a></p>
+
+<p>The Top Ruby Jobs - <a href="https://toprubyjobs.com/">https://toprubyjobs.com/</a></p>
+
+<p>Australian companies using Rails - <a href="https://github.com/rails-oceania/roro/wiki/Australian-Companies-using-Ruby-on-Rails">https://github.com/rails-oceania/roro/wiki/Australian-Companies-using-Ruby-on-Rails</a></p>
+
+<p>Codecademy - Learn the Command Line - <a href="https://www.codecademy.com/courses/learn-the-command-line">https://www.codecademy.com/courses/learn-the-command-line</a></p>
+
+<p>Codecademy - Learn Ruby - <a href="https://www.codecademy.com/learn/ruby">https://www.codecademy.com/learn/ruby</a></p>
+
+<p>CodeSchool - Got 15 minutes and want to learn Git? <a href="https://try.github.io/levels/1/challenges/1">https://try.github.io/levels/1/challenges/1</a></p>
+
+<p>CodeSchool Try Ruby - <a href="https://www.codeschool.com/courses/try-ruby">https://www.codeschool.com/courses/try-ruby</a></p>
+
+<p>IDE - Integrated Development Environment - <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">https://en.wikipedia.org/wiki/Integrated_development_environment</a></p>
+
+<p>Git (software) - <a href="https://en.wikipedia.org/wiki/Git_(software)">https://en.wikipedia.org/wiki/Git_(software)</a></p>
+
+<p>man page - <a href="https://en.wikipedia.org/wiki/Man_page">https://en.wikipedia.org/wiki/Man_page</a></p>
+
+<p>Terminal (OS X) - <a href="https://en.wikipedia.org/wiki/Terminal_(OS_X)">https://en.wikipedia.org/wiki/Terminal_(OS_X)</a></p>
+
+<p>Essential programmer training - <a href="http://www.codewars.com/">http://www.codewars.com/</a></p>
+
+<p>Mastering Markdown - <a href="https://guides.github.com/features/mastering-markdown/">https://guides.github.com/features/mastering-markdown/</a></p>
+
+<p>ImageMagick - <a href="http://www.imagemagick.org/script/index.php">http://www.imagemagick.org/script/index.php</a></p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/jbampton">jbampton</a> can be found on <a href="https://github.com/jbampton/ruby-strip">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
