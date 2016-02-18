@@ -34,7 +34,13 @@
         <h1>
 <a id="ruby-white-space-strip-command-line-application" class="anchor" href="#ruby-white-space-strip-command-line-application" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ruby white space strip command line application</h1>
 
-<p>This program uses Ruby and runs on the command line and accepts a single argument, a folder path name.</p>
+<p>This program uses <strong>Ruby Power</strong>..... For those of you who don't know much about Ruby....</p>
+
+<p>Here's <strong>Ruby</strong> in five seconds....to quote Wikipedia...</p>
+
+<p><a href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579">Ruby</a> was accepted as a Japanese Industrial Standard (JIS X 3017) in 2011[25] and an international standard (ISO/IEC 30170) in 2012.</p>
+
+<p>This program runs on the command line and accepts a single argument, a folder path name.</p>
 
 <p>It checks this folder recursively through all sub folders and files for leading and trailing whitespace.</p>
 
@@ -72,11 +78,38 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 <h2>
 <a id="mac-os-x-instructions" class="anchor" href="#mac-os-x-instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mac OS X instructions</h2>
 
-<p>When using the commands below in a terminal you may have to prepend them with - sudo</p>
+<p>As mentioned this program uses Ruby so lets see if its installed on your machine, open a terminal and type:</p>
+
+<h3>
+<a id="ruby--v" class="anchor" href="#ruby--v" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
+
+<p><img src="documentation/images/terminal/ruby/ruby-v.png" alt="ruby -v"></p>
+
+<p>To find out more about Ruby type:</p>
+
+<h3>
+<a id="man-ruby" class="anchor" href="#man-ruby" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>man ruby</h3>
+
+<p><img src="documentation/images/terminal/ruby/man-ruby.png" alt="man ruby"></p>
+
+<p>You can use the up and down arrows to navigate through the man page or press q to exit.</p>
+
+<p>Ruby also ships with 'ri' a tool used to display information about Ruby Classes, modules and methods from your terminal</p>
+
+<p>A lot of people don't know 'ri' exists and use google search instead.</p>
+
+<h3>
+<a id="man-ri" class="anchor" href="#man-ri" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>man ri</h3>
+
+<p><img src="documentation/images/terminal/ruby/man-ri.png" alt="man ri"></p>
 
 <p>The code uses the 'fileutils' gem so you must install it, if not already installed.  The 'fileutils' gem requires imagemagick to be installed.</p>
 
-<p>I used Homebrew to install imagemagick.  The command would be:</p>
+<p>I used <a href="http://brew.sh">Homebrew</a> to install <a href="http://www.imagemagick.org/script/index.php">imagemagick</a>.  Homebrew is the missing package manager for OS X.  It installs the stuff you need that Apple didn't.</p>
+
+<p>Under the hood Homebrew and <a href="http://brewformulas.org">Homebrew formula</a> are all Ruby.  For example with Homebrew I installed <a href="https://www.winehq.org">Wine</a> and then was able to get Notepad++ running on OS X....</p>
+
+<p>The command to install imagemagick with Homebrew would be:</p>
 
 <h3>
 <a id="brew-install-imagemagick" class="anchor" href="#brew-install-imagemagick" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>brew install imagemagick</h3>
@@ -115,10 +148,49 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 
 <p><img src="documentation/images/terminal/ruby/gem-h.png" alt="gem -h"></p>
 
+<p>Another important gem command is:</p>
+
+<h3>
+<a id="gem-help-commands" class="anchor" href="#gem-help-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem help commands</h3>
+
+<p><img src="documentation/images/terminal/ruby/gem-help-commands.png" alt="gem help commands"></p>
+
+<p>which leads us to:</p>
+
+<h3>
+<a id="gem-update" class="anchor" href="#gem-update" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem update</h3>
+
+<p><img src="documentation/images/terminal/ruby/gem-update.png" alt="gem update"></p>
+
+<p>Depending on number of gems installed, your gem update maybe shorter and I have not displayed the full output from the command.</p>
+
 <h2>
 <a id="rvm-usage" class="anchor" href="#rvm-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RVM Usage</h2>
 
-<p>Open a terminal and type the following commands:</p>
+<p>RVM is the Ruby Version Manager and it's developed mainly by <a href="https://github.com/mpapis">Michael Papis</a> on GitHub at <a href="https://github.com/rvm/rvm">https://github.com/rvm/rvm</a>.</p>
+
+<p>RVM is a command line tool which allows you to easily install, manage and work with multiple ruby environments or multiple ruby versions so that you can mirror the servers environment.</p>
+
+<p>To find out more about RVM open a terminal and type:</p>
+
+<h3>
+<a id="man-rvm" class="anchor" href="#man-rvm" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>man rvm</h3>
+
+<p><img src="documentation/images/terminal/rvm/man-rvm.png" alt="man rvm"></p>
+
+<p>Also you should enter the following command:</p>
+
+<h3>
+<a id="rvm-version" class="anchor" href="#rvm-version" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>rvm version</h3>
+
+<p><img src="documentation/images/terminal/rvm/rvm-version.png" alt="rvm version"></p>
+
+<p>You will also want to keep rvm update to date so run:</p>
+
+<h3>
+<a id="rvm-get-stable" class="anchor" href="#rvm-get-stable" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>rvm get stable</h3>
+
+<p><img src="documentation/images/terminal/rvm/rvm-get-stable.png" alt="rvm get stable"> </p>
 
 <h3>
 <a id="rvm-list-known" class="anchor" href="#rvm-list-known" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>rvm list known</h3>
@@ -126,7 +198,7 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 <p><img src="documentation/images/terminal/rvm/rvm-list-known.png" alt="rvm list known"></p>
 
 <h3>
-<a id="ruby--v" class="anchor" href="#ruby--v" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
+<a id="ruby--v-1" class="anchor" href="#ruby--v-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
 
 <p><img src="documentation/images/terminal/ruby/ruby-v.png" alt="ruby -v"></p>
 
@@ -149,7 +221,7 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 <p>Followed by: </p>
 
 <h3>
-<a id="ruby--v-1" class="anchor" href="#ruby--v-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
+<a id="ruby--v-2" class="anchor" href="#ruby--v-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
 
 <p><img src="documentation/images/terminal/rvm/rvm-ruby-v.png" alt="rvm ruby -v"></p>
 
@@ -161,7 +233,7 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 <a id="rvm-use-system" class="anchor" href="#rvm-use-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>rvm use system</h3>
 
 <h3>
-<a id="ruby--v-2" class="anchor" href="#ruby--v-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
+<a id="ruby--v-3" class="anchor" href="#ruby--v-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
 
 <p><img src="documentation/images/terminal/rvm/rvm-use-system.png" alt="rvm use system"></p>
 
@@ -171,7 +243,7 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 <a id="rvm-use-ruby-221" class="anchor" href="#rvm-use-ruby-221" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>rvm use ruby-2.2.1</h3>
 
 <h3>
-<a id="ruby--v-3" class="anchor" href="#ruby--v-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
+<a id="ruby--v-4" class="anchor" href="#ruby--v-4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
 
 <p><img src="documentation/images/terminal/rvm/rvm-use-ruby-2.2.1.png" alt="rvm use ruby-2.2.1"></p>
 
@@ -209,11 +281,15 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 
 <p>Homebrew — The missing package manager for OS X - <a href="http://brew.sh/">http://brew.sh/</a></p>
 
+<p>Homebrew formula - <a href="http://brewformulas.org">http://brewformulas.org</a></p>
+
 <p>JetBrains RubyMine - <a href="https://www.jetbrains.com/ruby/">https://www.jetbrains.com/ruby/</a></p>
 
 <p>Ruby Version Manager (RVM) - <a href="https://rvm.io/">https://rvm.io/</a></p>
 
 <p>Ruby Programming Language - <a href="https://www.ruby-lang.org/en/">https://www.ruby-lang.org/en/</a></p>
+
+<p>Ruby the ISO - <a href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579">http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579</a></p>
 
 <p>The Ruby Toolbox - <a href="https://www.ruby-toolbox.com/">https://www.ruby-toolbox.com/</a></p>
 
@@ -250,6 +326,8 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 <p>Mastering Markdown - <a href="https://guides.github.com/features/mastering-markdown/">https://guides.github.com/features/mastering-markdown/</a></p>
 
 <p>ImageMagick - <a href="http://www.imagemagick.org/script/index.php">http://www.imagemagick.org/script/index.php</a></p>
+
+<p>Wine - <a href="https://www.winehq.org">https://www.winehq.org</a></p>
       </section>
     </div>
 
