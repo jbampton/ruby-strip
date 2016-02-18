@@ -96,6 +96,16 @@ for more information on the gem command.
 
 ##RVM Usage
 
+RVM is the Ruby Version Manager, it's a command line tool which allows you to easily install, manage and work with multiple ruby environments or multiple ruby versions so that you can mirror the servers production environment.
+
+To find out more about RVM open a terminal and type:
+
+###man rvm
+
+![man rvm](documentation/images/terminal/rvm/man-rvm.png)
+
+You can use the up and down arrows to navigate through the man page or press q to exit.
+ 
 Open a terminal and type the following commands:
 
 ###rvm list known
