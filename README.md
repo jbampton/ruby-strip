@@ -93,6 +93,20 @@ for more information on the gem command.
 
 ![gem -h](documentation/images/terminal/ruby/gem-h.png)
 
+Another important gem command is:
+
+###gem help commands
+
+![gem help commands](documentation/images/terminal/ruby/gem-help-commands.png)
+
+which leads us to:
+
+###gem update
+
+![gem update](documentation/images/terminal/ruby/gem-update.png)
+
+Depending on number of gems installed, your gem update maybe shorter and I have not displayed the full output from the command.
+
 
 ##RVM Usage
 
@@ -105,8 +119,18 @@ To find out more about RVM open a terminal and type:
 ![man rvm](documentation/images/terminal/rvm/man-rvm.png)
 
 You can use the up and down arrows to navigate through the man page or press q to exit.
+
+Also you should enter the following commands:
+
+###rvm version
+
+![rvm version](documentation/images/terminal/rvm/rvm-version.png)
  
-Open a terminal and type the following commands:
+You will also want to keep rvm update to date so run:
+ 
+###rvm get stable
+
+![rvm get stable](documentation/images/terminal/rvm/rvm-get-stable.png) 
 
 ###rvm list known
 
