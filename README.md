@@ -45,6 +45,18 @@ The two commands that were run to produce the sample output were:
 
 When using the commands below in a terminal you may have to prepend them with - sudo
 
+As mentioned this program uses Ruby so lets see if its installed on your machine, open a terminal and type:
+
+###ruby -v
+
+![ruby -v](documentation/images/terminal/ruby/ruby-v.png)
+
+To find out more about Ruby type:
+
+###man ruby
+
+![man ruby](documentation/images/terminal/ruby/man-ruby.png)
+
 The code uses the 'fileutils' gem so you must install it, if not already installed.  The 'fileutils' gem requires imagemagick to be installed.
 
 I used Homebrew to install imagemagick.  The command would be:
