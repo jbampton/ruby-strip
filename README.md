@@ -2,9 +2,9 @@
 
 This program uses **Ruby Power**..... For those of you who don't know much about Ruby....
 
-Here's **Ruby** in five seconds....to quote wikipedia...
+Here's **Ruby** in five seconds....to quote Wikipedia...
 
-Ruby was accepted as a Japanese Industrial Standard (JIS X 3017) in 2011[25] and an international standard (ISO/IEC 30170) in 2012.
+[Ruby](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579) was accepted as a Japanese Industrial Standard (JIS X 3017) in 2011[25] and an international standard (ISO/IEC 30170) in 2012.
 
 This program runs on the command line and accepts a single argument, a folder path name.
 
@@ -43,8 +43,6 @@ The two commands that were run to produce the sample output were:
 
 ##Mac OS X instructions
 
-When using the commands below in a terminal you may have to prepend them with - sudo
-
 As mentioned this program uses Ruby so lets see if its installed on your machine, open a terminal and type:
 
 ###ruby -v
@@ -57,9 +55,23 @@ To find out more about Ruby type:
 
 ![man ruby](documentation/images/terminal/ruby/man-ruby.png)
 
+You can use the up and down arrows to navigate through the man page or press q to exit.
+
+Ruby also ships with 'ri' a tool used to display information about Ruby Classes, modules and methods from your terminal
+
+A lot of people don't know 'ri' exists and use google search instead.
+
+###man ri
+
+![man ri](documentation/images/terminal/ruby/man-ri.png)
+
 The code uses the 'fileutils' gem so you must install it, if not already installed.  The 'fileutils' gem requires imagemagick to be installed.
 
-I used Homebrew to install imagemagick.  The command would be:
+I used [Homebrew](http://brew.sh) to install [imagemagick](http://www.imagemagick.org/script/index.php).  Homebrew is the missing package manager for OS X.  It installs the stuff you need that Apple didn't.
+
+Under the hood Homebrew and [Homebrew formula](http://brewformulas.org) are all Ruby.  For example with Homebrew I installed [Wine](https://www.winehq.org) and then was able to get Notepad++ running on OS X....
+
+The command to install imagemagick with Homebrew would be:
 
 ###brew install imagemagick
 
@@ -110,7 +122,9 @@ Depending on number of gems installed, your gem update maybe shorter and I have 
 
 ##RVM Usage
 
-RVM is the Ruby Version Manager, it's a command line tool which allows you to easily install, manage and work with multiple ruby environments or multiple ruby versions so that you can mirror the servers production environment.
+RVM is the Ruby Version Manager and it's developed mainly by [Michael Papis](https://github.com/mpapis) on GitHub at https://github.com/rvm/rvm.
+ 
+RVM is a command line tool which allows you to easily install, manage and work with multiple ruby environments or multiple ruby versions so that you can mirror the servers environment.
 
 To find out more about RVM open a terminal and type:
 
@@ -118,9 +132,7 @@ To find out more about RVM open a terminal and type:
 
 ![man rvm](documentation/images/terminal/rvm/man-rvm.png)
 
-You can use the up and down arrows to navigate through the man page or press q to exit.
-
-Also you should enter the following commands:
+Also you should enter the following command:
 
 ###rvm version
 
@@ -204,11 +216,15 @@ RubyInstaller for Windows - http://rubyinstaller.org/
 
 Homebrew — The missing package manager for OS X - http://brew.sh/
 
+Homebrew formula - http://brewformulas.org
+
 JetBrains RubyMine - https://www.jetbrains.com/ruby/
 
 Ruby Version Manager (RVM) - https://rvm.io/
 
 Ruby Programming Language - https://www.ruby-lang.org/en/
+
+Ruby the ISO - http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579
 
 The Ruby Toolbox - https://www.ruby-toolbox.com/
 
@@ -245,3 +261,5 @@ Essential programmer training - http://www.codewars.com/
 Mastering Markdown - https://guides.github.com/features/mastering-markdown/
 
 ImageMagick - http://www.imagemagick.org/script/index.php
+
+Wine - https://www.winehq.org
