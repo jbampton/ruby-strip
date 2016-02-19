@@ -1,6 +1,10 @@
 # Ruby white space strip command line application
 
-This program uses **Ruby Power**..... For those of you who don't know much about Ruby....
+This repository is about all things Ruby.
+
+The actual program uses **Ruby Power** to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on Ruby. 
+
+For those of you who don't know much about Ruby....
 
 Here's **Ruby** in five seconds....to quote Wikipedia...
 
@@ -64,6 +68,20 @@ A lot of people don't know 'ri' exists and use google search instead.
 ###man ri
 
 ![man ri](documentation/images/terminal/ruby/man-ri.png)
+
+Ruby also ships with a fantastic tool called IRB.  IRB is the interactive Ruby console where you can test out your Ruby commands inside a terminal.  
+
+###man irb
+
+![man irb](documentation/images/terminal/ruby/man-irb.png)
+
+And to use IRB type:
+
+###irb
+
+![irb](documentation/images/terminal/ruby/irb.png)
+
+You type 'exit' to stop using irb and return to the standard terminal.
 
 The code uses the 'fileutils' gem so you must install it, if not already installed.  The 'fileutils' gem requires imagemagick to be installed.
 
