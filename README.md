@@ -57,7 +57,7 @@ And then come train in the [REAL DOJO](http://www.codewars.com) and reach your h
 
 ##Mac OS X instructions
 
-[Matz](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto) made run Ruby fun and easy to learn, so don't be sacred and first check out a short Ruby YouTube video I created.
+[Matz](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto) made Ruby fun and easy to learn, so don't be worried and first check out a short Ruby YouTube video I created.
 
 [Ruby in 29 seconds](https://youtu.be/2ei7S0FU65E)
 
