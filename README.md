@@ -1,6 +1,6 @@
 # Ruby white space strip command line application
 
-This repository is about all things [Ruby](https://www.ruby-lang.org/en/).
+This repository is about all things [Ruby](https://www.ruby-lang.org/en/).  All the links in this README.md briefly explain some of the topics discussed.
 
 Hey come and check out the [Ruby in 4 seconds](https://youtu.be/ayx4fASYkZU) video.
 
@@ -12,13 +12,13 @@ Here's **Ruby Power** in five seconds from [Ruby Wikipedia](https://en.wikipedia
 
 [Ruby](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579) was accepted as a Japanese Industrial Standard (JIS X 3017) in 2011[25] and an international standard (ISO/IEC 30170) in 2012.
 
-This program runs on the [command line](https://en.wikipedia.org/wiki/Command-line_interface) and accepts a single argument, a folder path name.
+This program runs on the [command line](https://en.wikipedia.org/wiki/Command-line_interface) and accepts a single argument, a folder [path](https://en.wikipedia.org/wiki/Path_\(computing)) name.
 
-It checks this folder [recursively](https://en.wikipedia.org/wiki/Recursion) through all sub folders and files for leading and trailing whitespace.
+It checks this folder [recursively](https://en.wikipedia.org/wiki/Recursion) through all sub folders and files for leading and trailing [whitespace](https://en.wikipedia.org/wiki/Whitespace_character).
 
-It removes all the excess leading and trailing whitespace and copies the folder contents to this projects 'output' directory.
+It removes all the excess leading and trailing whitespace and [copies](https://en.wikipedia.org/wiki/Copy_\(command)) the folder contents to this projects 'output' [directory](https://en.wikipedia.org/wiki/Directory_\(computing)).
 
-So far it has been checked against these file types:
+So far it has been checked against these [file formats](https://en.wikipedia.org/wiki/File_format):
 
     - *.c
     - *.xml
