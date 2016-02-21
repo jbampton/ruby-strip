@@ -1,16 +1,18 @@
 # Ruby white space strip command line application
 
-This repository is about all things Ruby.
+This repository is about all things [Ruby](https://www.ruby-lang.org/en/).
 
-The actual program uses **Ruby Power** to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on Ruby. 
+Hey come and check out the [Ruby in 4 seconds](https://youtu.be/ayx4fASYkZU) video.
 
-For those of you who don't know much about Ruby....
+The actual program uses [Ruby Power](https://www.ruby-lang.org/en/documentation/success-stories/) to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on Ruby. 
 
-Here's **Ruby** in five seconds....to quote Wikipedia...
+For those of you who don't know much about [Ruby](http://ruby-doc.org)....
+
+Here's **Ruby Power** in five seconds from [Ruby Wikipedia](https://en.wikipedia.org/wiki/Ruby_(programming_language):
 
 [Ruby](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579) was accepted as a Japanese Industrial Standard (JIS X 3017) in 2011[25] and an international standard (ISO/IEC 30170) in 2012.
 
-This program runs on the command line and accepts a single argument, a folder path name.
+This program runs on the [command line](https://en.wikipedia.org/wiki/Command-line_interface) and accepts a single argument, a folder path name.
 
 It checks this folder recursively through all sub folders and files for leading and trailing whitespace.
 
@@ -29,7 +31,7 @@ So far it has been checked against these file types:
     - *.rb
     
     
-Coming from a PHP background where leading and trailing white space can sometimes be problematic I thought it would be 
+Coming from a [PHP](http://php.net) background where leading and trailing white space can sometimes be problematic I thought it would be 
 interesting to build a command line tool in Ruby (my first command line tool in Ruby)
     
 To run simply clone this repo and then open a terminal and navigate to the directory where you cloned to.
@@ -46,6 +48,10 @@ The two commands that were run to produce the sample output were:
 
 
 ##Mac OS X instructions
+
+[Matz](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto) made run Ruby fun and easy to learn, so don't be sacred and first check out a short Ruby YouTube video I created.
+
+[Ruby in 29 seconds](https://youtu.be/2ei7S0FU65E)
 
 As mentioned this program uses Ruby so lets see if its installed on your machine, open a terminal and type:
 
@@ -230,6 +236,14 @@ Open a terminal and type:
 
 ##Resources used on this project and helpful links
 
+Ruby Programming Language - https://www.ruby-lang.org/en/
+
+Ruby Doc - http://ruby-doc.org-doc.org
+
+Ruby the ISO - http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579
+
+The Ruby Toolbox - https://www.ruby-toolbox.com/
+
 RubyInstaller for Windows - http://rubyinstaller.org/
 
 Homebrew — The missing package manager for OS X - http://brew.sh/
@@ -239,12 +253,6 @@ Homebrew formula - http://brewformulas.org
 JetBrains RubyMine - https://www.jetbrains.com/ruby/
 
 Ruby Version Manager (RVM) - https://rvm.io/
-
-Ruby Programming Language - https://www.ruby-lang.org/en/
-
-Ruby the ISO - http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579
-
-The Ruby Toolbox - https://www.ruby-toolbox.com/
 
 Ruby regular expression editor - http://rubular.com/
 
@@ -281,3 +289,5 @@ Mastering Markdown - https://guides.github.com/features/mastering-markdown/
 ImageMagick - http://www.imagemagick.org/script/index.php
 
 Wine - https://www.winehq.org
+
+PHP - http://php.net
