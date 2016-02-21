@@ -1,6 +1,6 @@
 # Ruby white space strip command line application
 
-This repository is about all things [Ruby](https://www.ruby-lang.org/en/).  All the links in this README.md briefly explain some of the topics discussed.
+This repository is about all things [Ruby](https://www.ruby-lang.org/en/).  All the links in this README.md briefly explain some of the [Ruby](https://github.com/ruby/ruby) topics discussed.
 
 Hey come and check out the [Ruby in 4 seconds](https://youtu.be/ayx4fASYkZU) video.
 
@@ -45,6 +45,14 @@ The two commands that were run to produce the sample output were:
   - ruby ruby-strip.rb php-test-files 
 
   - ruby ruby-strip.rb random-test-files
+
+
+If you are still to afraid to dive in and try Ruby, how about a couple easy free web based interactive courses on Ruby:
+
+- [Try Ruby](http://tryruby.org/levels/1/challenges/0) 
+- [Codecademy Ruby](https://www.codecademy.com/learn/ruby)
+
+And then come train in the [REAL DOJO](http://www.codewars.com) and reach your highest potential, become faster, stronger and more powerful ...?!?!  
 
 
 ##Mac OS X instructions
