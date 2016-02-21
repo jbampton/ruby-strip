@@ -8,13 +8,13 @@ The actual program uses [Ruby Power](https://www.ruby-lang.org/en/documentation/
 
 For those of you who don't know much about [Ruby](http://ruby-doc.org)....
 
-Here's **Ruby Power** in five seconds from [Ruby Wikipedia](https://en.wikipedia.org/wiki/Ruby_(programming_language):
+Here's **Ruby Power** in five seconds from [Ruby Wikipedia](https://en.wikipedia.org/wiki/Ruby_\(programming_language\))
 
 [Ruby](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579) was accepted as a Japanese Industrial Standard (JIS X 3017) in 2011[25] and an international standard (ISO/IEC 30170) in 2012.
 
 This program runs on the [command line](https://en.wikipedia.org/wiki/Command-line_interface) and accepts a single argument, a folder path name.
 
-It checks this folder recursively through all sub folders and files for leading and trailing whitespace.
+It checks this folder [recursively](https://en.wikipedia.org/wiki/Recursion) through all sub folders and files for leading and trailing whitespace.
 
 It removes all the excess leading and trailing whitespace and copies the folder contents to this projects 'output' directory.
 
