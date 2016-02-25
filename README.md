@@ -50,7 +50,10 @@ The two commands that were run to produce the sample output were:
 If you are still to afraid to dive in and try Ruby, how about a couple easy free web based interactive courses on Ruby:
 
 - [Try Ruby](http://tryruby.org/levels/1/challenges/0) 
-- [Codecademy Ruby](https://www.codecademy.com/learn/ruby)
+- [Codecademy Ruby](https://www.codecademy.com/learn/ruby) 
+- [Learn the command line](https://www.codecademy.com/learn/learn-the-command-line)
+- [Try Git](https://www.codeschool.com/courses/try-git)
+- [Learn Git](https://www.codecademy.com/learn/learn-git)
 
 And then come train in the [REAL DOJO](http://www.codewars.com) and reach your highest potential, become faster, stronger and more powerful......JEDI MASTER LEVEL.....!??!?!!  
 
