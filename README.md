@@ -311,3 +311,14 @@ ImageMagick - http://www.imagemagick.org/script/index.php
 Wine - https://www.winehq.org
 
 PHP - http://php.net
+
+
+##List of Ruby
+
+https://twitter.com/matz_translated
+
+https://www.facebook.com/pages/Yukihiro-Matsumoto/109410772411674
+
+
+##Contributions
+Fork and pull request. Simple.
