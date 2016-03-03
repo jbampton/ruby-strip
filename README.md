@@ -257,6 +257,27 @@ Open a terminal and type:
 ![brew list](documentation/images/terminal/homebrew/brew_list.png)
 
 
+
+##Windows instructions
+
+You can use the RubyInstaller for Windows - http://rubyinstaller.org/ to install Ruby.
+
+Next you should install the Ruby DevKit.
+
+Then you can download and install Imagemagick at http://www.imagemagick.org/script/index.php
+
+Next you will need to install the "fileutils" gem
+
+###gem install fileutils
+
+To see the current Gems that are installed on your system type: 
+
+###gem list 
+
+![gem install and gem list](documentation/images/windows/gem-install-gem-list.png)
+
+
+
 ##Resources used on this project and helpful links
 
 Ruby Programming Language - https://www.ruby-lang.org/en/
