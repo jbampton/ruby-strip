@@ -266,6 +266,10 @@ Next you should install the Ruby DevKit.
 
 Then you can download and install Imagemagick at http://www.imagemagick.org/script/index.php
 
+###ruby -v
+
+![ruby -v](documentation/images/windows/ruby-v.png)
+
 Next you will need to install the "fileutils" gem
 
 ###gem install fileutils
