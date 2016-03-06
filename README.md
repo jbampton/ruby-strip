@@ -270,6 +270,10 @@ Then you can download and install Imagemagick at http://www.imagemagick.org/scri
 
 ![ruby -v](documentation/images/windows/ruby-v.png)
 
+###ruby -h
+
+![ruby -h](documentation/images/windows/ruby-h.png)
+
 Next you will need to install the "fileutils" gem
 
 ###gem install fileutils
