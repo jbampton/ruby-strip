@@ -4,6 +4,8 @@ This repository is about all things [Ruby](https://www.ruby-lang.org/en/).  All 
 
 Hey come and check out the [Ruby in 4 seconds](https://youtu.be/ayx4fASYkZU) video.
 
+[Matz](https://twitter.com/matz_translated) made Ruby fun to learn.
+
 The actual program uses [Ruby Power](https://www.ruby-lang.org/en/documentation/success-stories/) to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on Ruby. 
 
 For those of you who don't know much about [Ruby](http://ruby-doc.org)....
