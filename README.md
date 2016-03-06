@@ -2,9 +2,7 @@
 
 This repository is about all things [Ruby](https://www.ruby-lang.org/en/).  All the links in this README.md briefly explain some of the [Ruby](https://github.com/ruby/ruby) topics discussed.
 
-Hey come and check out the [Ruby in 4 seconds](https://youtu.be/ayx4fASYkZU) video.
-
-[Matz](https://twitter.com/matz_translated) made Ruby fun to learn.
+[Matz](https://twitter.com/matz_translated) made Ruby fun to learn so come and check out the [Ruby in 4 seconds](https://youtu.be/ayx4fASYkZU) video.
 
 The actual program uses [Ruby Power](https://www.ruby-lang.org/en/documentation/success-stories/) to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on Ruby. 
 
@@ -64,7 +62,7 @@ So now that you are Ruby Gung-Ho, the new Ruby [Bruce Lee](https://en.wikipedia.
 
 ##Mac OS X instructions
 
-[Matz](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto) made Ruby fun and easy to learn, so don't be worried and first check out a short Ruby YouTube video I created.
+[Matz](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto) made Ruby easy to learn, so don't be worried and first check out a short Ruby YouTube video I created.
 
 [Ruby in 29 seconds](https://youtu.be/2ei7S0FU65E)
 
@@ -75,6 +73,10 @@ As mentioned this program uses Ruby so lets see if its installed on your machine
 ![ruby -v](documentation/images/terminal/ruby/ruby-v.png)
 
 To find out more about Ruby type:
+
+###ruby --help
+
+![ruby --help](documentation/images/terminal/ruby/ruby--help.png)
 
 ###man ruby
 
