@@ -31,7 +31,7 @@ So far it has been checked against these [file formats](https://en.wikipedia.org
     - *.rb
     
     
-Coming from a [PHP](http://php.net) background where leading and trailing white space can sometimes be problematic I thought it would be 
+Coming from a [PHP](http://php.net) background where leading and trailing white space can sometimes be [problematic](https://www.google.com.au/search?client=opera&q=php+leading+whitespace+problem&sourceid=opera&ie=UTF-8&oe=UTF-8) I thought it would be 
 interesting to build a command line tool in Ruby (my first command line tool in Ruby)
     
 To run simply clone this repo and then open a terminal and navigate to the directory where you cloned to.
