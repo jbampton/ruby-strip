@@ -352,12 +352,19 @@ Wine - https://www.winehq.org
 
 PHP - http://php.net
 
+One-Click rubyinstaller and DevKit - ttps://bintray.com/oneclick/rubyinstaller
+
+MinGW - Minimalist GNU for Windows - http://www.mingw.org/
 
 ##List of Ruby
 
 https://twitter.com/matz_translated
 
+https://twitter.com/yukihiro_matz
+
 https://www.facebook.com/pages/Yukihiro-Matsumoto/109410772411674
+
+https://plus.google.com/communities/101878695540653445908
 
 
 ##Contributions
