@@ -270,6 +270,10 @@ Next you should install the Ruby DevKit.
 
 Then you can download and install Imagemagick at http://www.imagemagick.org/script/index.php
 
+When you are installing Imagemagick on the - Select Additional Tasks page of the installer, check the box for Install development headers and libraries for C and C++.
+
+![Imagemagick installer page 3](documentation/images/windows/imagemagick3.png)
+
 ###ruby -v
 
 ![ruby -v](documentation/images/windows/ruby-v.png)
