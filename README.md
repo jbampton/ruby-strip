@@ -106,9 +106,11 @@ And to use IRB type:
 
 You type 'exit' to stop using irb and return to the standard terminal.
 
-The code uses the 'fileutils' gem so you must install it, if not already installed.  The 'fileutils' gem requires imagemagick to be installed.
+The code uses the [fileutils](https://rubygems.org/gems/fileutils) gem so you must install it, if not already installed.  
 
-I used [Homebrew](http://brew.sh) to install [imagemagick](http://www.imagemagick.org/script/index.php).  Homebrew is the missing package manager for OS X.  It installs the stuff you need that Apple didn't. There is a short Homebrew usage section towards the bottom of this README.
+The 'fileutils' gem requires the [rmagick](https://rubygems.org/gems/rmagick) gem to be installed which requries [imagemagick](http://www.imagemagick.org/script/index.php) to be installed.
+
+I used [Homebrew](http://brew.sh) to install imagemagick.  Homebrew is the missing package manager for OS X.  It installs the stuff you need that Apple didn't. There is a short Homebrew usage section towards the bottom of this README.
 
 Under the hood Homebrew and [Homebrew formula](http://brewformulas.org) are all Ruby.  For example with Homebrew I installed [Wine](https://www.winehq.org) and then was able to get Notepad++ running on OS X....
 
