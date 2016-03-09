@@ -47,7 +47,7 @@ The two commands that were run to produce the sample output were:
   - ruby ruby-strip.rb random-test-files
 
 
-If you are still to afraid to dive in and try Ruby, how about a couple easy free web based interactive courses on Ruby:
+If you are still to afraid to dive in and try Ruby, how about some easy free web based interactive courses on basic tech:
 
 - [Try Ruby](http://tryruby.org/levels/1/challenges/0) 
 - [Codecademy Ruby](https://www.codecademy.com/learn/ruby) 
