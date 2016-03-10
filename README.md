@@ -233,6 +233,14 @@ To switch back to using an RVM Ruby type:
 
 ![rvm use ruby-2.2.1](documentation/images/terminal/rvm/rvm-use-ruby-2.2.1.png)
 
+You can also enter: 
+
+###which ruby
+
+![which ruby](documentation/images/terminal/ruby/which-ruby.png)
+
+You can see the the output of the gem env command below:
+
 
 ##Homebrew usage
 
