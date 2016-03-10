@@ -110,6 +110,8 @@ The code uses the [fileutils](https://rubygems.org/gems/fileutils) gem so you mu
 
 The 'fileutils' gem requires the [rmagick](https://rubygems.org/gems/rmagick) gem to be installed which requries [imagemagick](http://www.imagemagick.org/script/index.php) to be installed.
 
+![gem dependency](documentation/images/terminal/ruby/gem-dependency.png)
+
 I used [Homebrew](http://brew.sh) to install imagemagick.  Homebrew is the missing package manager for OS X.  It installs the stuff you need that Apple didn't. There is a short Homebrew usage section towards the bottom of this README.
 
 Under the hood Homebrew and [Homebrew formula](http://brewformulas.org) are all Ruby.  For example with Homebrew I installed [Wine](https://www.winehq.org) and then was able to get Notepad++ running on OS X....
@@ -238,8 +240,6 @@ You can also enter:
 ###which ruby
 
 ![which ruby](documentation/images/terminal/ruby/which-ruby.png)
-
-You can see the the output of the gem env command below:
 
 
 ##Homebrew usage
