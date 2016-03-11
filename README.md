@@ -241,6 +241,12 @@ You can also enter:
 
 ![which ruby](documentation/images/terminal/ruby/which-ruby.png)
 
+You can read more about the which command by entering:
+
+###man which
+
+![man which](documentation/images/terminal/general/man-which.png)
+
 
 ##Homebrew usage
 
