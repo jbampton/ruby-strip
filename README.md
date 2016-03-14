@@ -12,6 +12,8 @@ Here's [Ruby Power](http://skillcrush.com/2015/02/02/37-rails-sites/) in five se
 
 **[Ruby](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)** was accepted as a [Japanese Industrial Standard](https://en.wikipedia.org/wiki/Japanese_Industrial_Standards) (JIS X 3017) in 2011[25] and an [international standard](http://www.iso.org/iso/home.html) (ISO/IEC 30170) in 2012.
 
+Ruby is growing in popularity and is currently ranked 10th on the [TIOBE Index](http://www.tiobe.com/tiobe_index).
+
 This program runs on the [command line](https://en.wikipedia.org/wiki/Command-line_interface) and accepts a single [parameter](https://en.wikipedia.org/wiki/Parameter_\(computer_programming\)), a folder [path](https://en.wikipedia.org/wiki/Path_\(computing) name.
 
 It checks this folder [recursively](https://en.wikipedia.org/wiki/Recursion) through all sub folders and files for leading and trailing [whitespace](https://en.wikipedia.org/wiki/Whitespace_character).
