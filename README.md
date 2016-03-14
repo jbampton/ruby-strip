@@ -1,16 +1,16 @@
 # Ruby white space strip command line application
 
-This repository is about all things [Ruby](https://www.ruby-lang.org/en/).  All the links in this README.md briefly explain some of the [Ruby](https://github.com/ruby/ruby) topics discussed.
+This repository is about all things **[Ruby](https://www.ruby-lang.org/en/)**.  All the links in this README.md briefly explain some of the **[Ruby](https://github.com/ruby/ruby)** topics discussed.
 
 [Matz](https://twitter.com/matz_translated) made Ruby fun to learn so come and check out the [Ruby in 4 seconds](https://youtu.be/ayx4fASYkZU) video.
 
-The actual program uses [Ruby Power](https://www.ruby-lang.org/en/documentation/success-stories/) to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on Ruby. 
+The actual program uses **[Ruby Power](https://www.ruby-lang.org/en/documentation/success-stories/)** to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on Ruby. 
 
 For those of you who don't know much about [Ruby](http://ruby-doc.org)....
 
 Here's [Ruby Power](http://skillcrush.com/2015/02/02/37-rails-sites/) in five seconds from [Ruby Wikipedia](https://en.wikipedia.org/wiki/Ruby_\(programming_language\))
 
-[Ruby](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579) was accepted as a [Japanese Industrial Standard](https://en.wikipedia.org/wiki/Japanese_Industrial_Standards) (JIS X 3017) in 2011[25] and an [international standard](http://www.iso.org/iso/home.html) (ISO/IEC 30170) in 2012.
+**[Ruby](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)** was accepted as a [Japanese Industrial Standard](https://en.wikipedia.org/wiki/Japanese_Industrial_Standards) (JIS X 3017) in 2011[25] and an [international standard](http://www.iso.org/iso/home.html) (ISO/IEC 30170) in 2012.
 
 This program runs on the [command line](https://en.wikipedia.org/wiki/Command-line_interface) and accepts a single [parameter](https://en.wikipedia.org/wiki/Parameter_\(computer_programming\)), a folder [path](https://en.wikipedia.org/wiki/Path_\(computing) name.
 
