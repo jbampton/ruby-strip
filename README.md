@@ -94,7 +94,7 @@ A lot of people don't know 'ri' exists and use google search instead.
 
 ![man ri](documentation/images/terminal/ruby/man-ri.png)
 
-Ruby also ships with a fantastic tool called IRB.  IRB is the interactive Ruby console where you can test out your Ruby commands inside a terminal.  Watch a [quick video on IRB](https://www.youtube.com/watch?v=CpFgz5Iq3qA) on Youtube.
+Ruby also ships with a fantastic tool called IRB.  IRB is the interactive Ruby console where you can test out your Ruby commands inside a terminal.  Watch a [short video on Youtube] that I made on IRB.
 
 ###man irb
 
