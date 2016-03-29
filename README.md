@@ -110,7 +110,7 @@ You type 'exit' to stop using irb and return to the standard terminal.
 
 You can add 'tab' completion to irb by creating a .irbrc file
 
-You can use the nano editor to creat this by entering:
+You can use the nano editor to create this by entering:
 
 ###nano .irbrc
 
