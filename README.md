@@ -108,6 +108,19 @@ And to use IRB type:
 
 You type 'exit' to stop using irb and return to the standard terminal.
 
+You can add 'tab' completion to irb by creating a .irbrc file
+
+You can use the nano editor to creat this by entering:
+
+###nano .irbrc
+
+Then entering the next line:
+
+###require 'irb/completion'
+
+
+
+
 The code uses the [fileutils](https://rubygems.org/gems/fileutils) gem so you must install it, if not already installed.  
 
 The 'fileutils' gem requires the [rmagick](https://rubygems.org/gems/rmagick) gem to be installed which requries [imagemagick](http://www.imagemagick.org/script/index.php) to be installed.
