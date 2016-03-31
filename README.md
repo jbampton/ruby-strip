@@ -80,7 +80,7 @@ To find out more about Ruby type:
 
 ![ruby --help](documentation/images/terminal/ruby/ruby--help.png)
 
-[man pages](https://en.wikipedia.org/wiki/Man_page) hold a lot of information about programs.
+[man pages](https://en.wikipedia.org/wiki/Man_page) contain a lot of information about programs.
 
 ###man ruby
 
