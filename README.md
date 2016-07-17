@@ -305,7 +305,7 @@ To run this program on Windows you will need to install the following software i
  
 You can use the RubyInstaller for Windows - http://rubyinstaller.org/ to install Ruby.
 
-After you have installed Ruby try out the next three commands:
+After you have installed Ruby try out the next two commands:
 
 ###ruby -v
 
@@ -314,6 +314,8 @@ After you have installed Ruby try out the next three commands:
 ###ruby -h
 
 ![ruby -h](documentation/images/windows/ruby-h.png)
+
+Interactive Ruby Shell or IRB should also be installed as seen below
 
 ###irb 
 
