@@ -6,7 +6,7 @@ This repository is about all things **[Ruby](https://www.ruby-lang.org/en/)**.  
 
 The actual program uses **[Ruby Power](https://www.ruby-lang.org/en/documentation/success-stories/)** to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on Ruby. 
 
-For those of you who don't know much about [Ruby](http://ruby-doc.org)....
+For those of you who don't know much about [Ruby](http://ruby-doc.org)...
 
 Here's [Ruby Power](http://skillcrush.com/2015/02/02/37-rails-sites/) in five seconds from [Ruby Wikipedia](https://en.wikipedia.org/wiki/Ruby_\(programming_language\))
 
@@ -47,8 +47,7 @@ The two commands that were run to produce the sample output were:
   - ruby ruby-strip.rb php-test-files 
 
   - ruby ruby-strip.rb random-test-files
-
-
+  
 If you are still to afraid to dive in and try Ruby, how about some easy free web based interactive courses on basic tech:
 
 - [Try Ruby](http://tryruby.org/levels/1/challenges/0) 
@@ -131,7 +130,7 @@ The 'fileutils' gem requires the [rmagick](https://rubygems.org/gems/rmagick) ge
 
 I used [Homebrew](http://brew.sh) to install imagemagick.  Homebrew is the missing package manager for OS X.  It installs the stuff you need that Apple didn't. There is a short Homebrew usage section towards the bottom of this README.
 
-Under the hood Homebrew and [Homebrew formula](http://brewformulas.org) are all Ruby.  For example with Homebrew I installed [Wine](https://www.winehq.org) and then was able to get Notepad++ running on OS X....
+Under the hood Homebrew and [Homebrew formula](http://brewformulas.org) are all Ruby.  For example with Homebrew I installed [Wine](https://www.winehq.org) and then was able to get [Notepad++](https://notepad-plus-plus.org/) running on OS X....
 
 The command to install imagemagick with Homebrew would be:
 
@@ -297,15 +296,16 @@ Open a terminal and type:
 
 ##Windows instructions
 
+To run this program on Windows you will need to install the following software in this order:
+
+ - RubyInstaller
+ - Ruby DevKit
+ - Imagemagick
+ - fileutils gem
+ 
 You can use the RubyInstaller for Windows - http://rubyinstaller.org/ to install Ruby.
 
-Next you should install the Ruby DevKit.
-
-Then you can download and install Imagemagick at http://www.imagemagick.org/script/index.php
-
-When you are installing Imagemagick on the - Select Additional Tasks page of the installer, check the box for Install development headers and libraries for C and C++.
-
-![Imagemagick installer page 3](documentation/images/windows/imagemagick3.png)
+After you have installed Ruby try out the next three commands:
 
 ###ruby -v
 
@@ -314,6 +314,18 @@ When you are installing Imagemagick on the - Select Additional Tasks page of the
 ###ruby -h
 
 ![ruby -h](documentation/images/windows/ruby-h.png)
+
+###irb 
+
+![irb](documentation/images/windows/irb.png)
+
+Next you will have to install the Ruby DevKit and then Imagemagick followed by the fileutils RubyGem.
+
+You can download Imagemagick at http://www.imagemagick.org/script/index.php
+
+When you are installing Imagemagick on the - Select Additional Tasks page of the installer, check the box for Install development headers and libraries for C and C++.
+
+![Imagemagick installer page 3](documentation/images/windows/imagemagick3.png)
 
 Next you will need to install the "fileutils" gem
 
