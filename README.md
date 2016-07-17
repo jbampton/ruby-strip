@@ -1,10 +1,8 @@
 # Ruby white space strip command line application
 
-This repository is about all things **[Ruby](https://www.ruby-lang.org/en/)**.  All the links in this README.md briefly explain some of the **[Ruby](https://github.com/ruby/ruby)** topics discussed.
+This program uses **[Ruby Power](https://www.ruby-lang.org/en/documentation/success-stories/)** to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on all things **[Ruby](https://www.ruby-lang.org/en/)**.  All the links in this README.md briefly explain some of the **[Ruby](https://github.com/ruby/ruby)** topics discussed.
 
 [Matz](https://twitter.com/matz_translated) made Ruby fun to learn so come and check out the [Ruby in 4 seconds](https://youtu.be/ayx4fASYkZU) video.
-
-The actual program uses **[Ruby Power](https://www.ruby-lang.org/en/documentation/success-stories/)** to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on Ruby. 
 
 For those of you who don't know much about [Ruby](http://ruby-doc.org)...
 
@@ -339,6 +337,9 @@ To see the current Gems that are installed on your system type:
 
 ![gem install and gem list](documentation/images/windows/gem-install-gem-list.png)
 
+###gem dependency fileutils
+
+![gem dependency fileutils](documentation/images/windows/gem-dependency-fileutils.png)
 
 
 ##Resources used on this project and helpful links
