@@ -125,7 +125,7 @@ Then entering the next line:
 
 
 
-The code uses the [fileutils](https://rubygems.org/gems/fileutils) gem so you must install it, if not already installed.  
+The code uses two RubyGems, [fileutils](https://rubygems.org/gems/fileutils) and [rubocop](https://github.com/bbatsov/rubocop) so you must install them, if not already installed.
 
 The 'fileutils' gem requires the [rmagick](https://rubygems.org/gems/rmagick) gem to be installed which requries [imagemagick](http://www.imagemagick.org/script/index.php) to be installed.
 
@@ -141,7 +141,17 @@ The command to install imagemagick with Homebrew would be:
 
 ![brew install imagemagick](documentation/images/terminal/homebrew/brew-install-imagemagick.png)
 
-Open a terminal and type: 
+I've added a GemFile so you can use [Bundler](http://bundler.io/) from this projects directory to run:
+
+###bundle install
+
+which will install the required gems.
+
+Alternatively open a terminal and type: 
+
+###gem install rubocop
+
+and
 
 ###gem install fileutils
 
