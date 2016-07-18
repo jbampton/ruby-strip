@@ -122,9 +122,6 @@ Then entering the next line:
 
 ###require 'irb/completion'
 
-
-
-
 The code uses two RubyGems, [fileutils](https://rubygems.org/gems/fileutils) and [rubocop](https://github.com/bbatsov/rubocop) so you must install them, if not already installed.
 
 The 'fileutils' gem requires the [rmagick](https://rubygems.org/gems/rmagick) gem to be installed which requries [imagemagick](http://www.imagemagick.org/script/index.php) to be installed.
@@ -141,13 +138,19 @@ The command to install imagemagick with Homebrew would be:
 
 ![brew install imagemagick](documentation/images/terminal/homebrew/brew-install-imagemagick.png)
 
-I've added a GemFile so you can use [Bundler](http://bundler.io/) from this projects directory to run:
+You can either install [Bundler](http://bundler.io/) which will install the required gems from the GemFile or install the required gems manually:
+
+Using bundler run:
+
+###gem install bundler
+
+I've added a GemFile so you can use bundler from this projects directory to run:
 
 ###bundle install
 
 which will install the required gems.
 
-Alternatively open a terminal and type: 
+Alternatively if not using bundler open a terminal and type: 
 
 ###gem install rubocop
 
