@@ -64,13 +64,13 @@ And then come train in the [REAL DOJO](http://www.codewars.com) and reach your h
 So now that you are **Ruby Gung-Ho**, the new Ruby [Bruce Lee](https://en.wikipedia.org/wiki/Bruce_Lee) on the street, try the instructions below.
 
 
-##Mac OS X instructions
+#Mac OS X instructions
 
 [Matz](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto) made Ruby easy to learn, so don't be worried and first check out a short Ruby YouTube video I created.
 
 [Ruby in 29 seconds](https://youtu.be/2ei7S0FU65E)
 
-As mentioned this program uses Ruby so lets see if its installed on your machine, open a terminal and type:
+Most Macs have Ruby preinstalled so lets see if its installed on your machine, open a terminal and type:
 
 ###ruby -v
 
@@ -122,11 +122,13 @@ Then entering the next line:
 
 ###require 'irb/completion'
 
-The code uses two RubyGems, [fileutils](https://rubygems.org/gems/fileutils) and [rubocop](https://github.com/bbatsov/rubocop) so you must install them, if not already installed.
 
-The 'fileutils' gem requires the [rmagick](https://rubygems.org/gems/rmagick) gem to be installed which requries [imagemagick](http://www.imagemagick.org/script/index.php) to be installed.
+##Mac OS X installation requirements
 
-![gem dependency](documentation/images/terminal/ruby/gem-dependency.png)
+ - Homebrew
+ - Imagemagick
+ - Bundler - not a fixed requirement
+ - fileutils, rubocop gems 
 
 I used [Homebrew](http://brew.sh) to install imagemagick.  Homebrew is the missing package manager for OS X.  It installs the stuff you need that Apple didn't. There is a short Homebrew usage section towards the bottom of this README.
 
@@ -138,7 +140,13 @@ The command to install imagemagick with Homebrew would be:
 
 ![brew install imagemagick](documentation/images/terminal/homebrew/brew-install-imagemagick.png)
 
-You can either install [Bundler](http://bundler.io/) which will install the required gems from the GemFile or install the required gems manually:
+The code uses two RubyGems, [fileutils](https://rubygems.org/gems/fileutils) and [rubocop](https://github.com/bbatsov/rubocop) so you must install them, if not already installed.
+
+The 'fileutils' gem requires the [rmagick](https://rubygems.org/gems/rmagick) gem to be installed which requries [imagemagick](http://www.imagemagick.org/script/index.php) to be installed.
+
+![gem dependency](documentation/images/terminal/ruby/gem-dependency.png)
+
+You can either install [Bundler](http://bundler.io/) which will install the required gems from the GemFile or install the required gems manually.
 
 Using bundler run:
 
@@ -157,6 +165,9 @@ Alternatively if not using bundler open a terminal and type:
 and
 
 ###gem install fileutils
+
+
+##Gem commands 
 
 To see the current Gems that are installed on your system type: 
 
@@ -310,14 +321,15 @@ Open a terminal and type:
 
 
 
-##Windows instructions
+#Windows instructions
 
 To run this program on Windows you will need to install the following software in this order:
 
  - RubyInstaller
  - Ruby DevKit
  - Imagemagick
- - fileutils gem
+ - Bundler - optional
+ - fileutils and rubocop gems
  
 You can use the RubyInstaller for Windows - http://rubyinstaller.org/ to install Ruby.
 
@@ -351,7 +363,18 @@ When you are installing Imagemagick on the - Select Additional Tasks page of the
 
 Next you will need to install the "fileutils" gem
 
+Since this project has a GemFile, the easiest way to install the projects requirements is to run:
+
+###bundle install
+
+Otherwise you can install the gems manually by:
+
 ###gem install fileutils
+
+###gem install rubocop
+
+
+##Additional gem commands
 
 To see the current Gems that are installed on your system type: 
 
@@ -431,6 +454,12 @@ PHP - http://php.net
 One-Click rubyinstaller and DevKit - https://bintray.com/oneclick/rubyinstaller
 
 MinGW - Minimalist GNU for Windows - http://www.mingw.org/
+
+Bundler RubyGem - http://bundler.io/
+
+fileutils RubyGem - https://rubygems.org/gems/fileutils/
+
+RuboCop RubyGem - https://github.com/bbatsov/rubocop
 
 ##List of Ruby
 
