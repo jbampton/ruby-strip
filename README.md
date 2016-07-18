@@ -350,6 +350,12 @@ To see the current Gems that are installed on your system type:
 
 ![gem dependency fileutils](documentation/images/windows/gem-dependency-fileutils.png)
 
+To bring up more information on the gem command type:
+
+###gem -h
+
+![gem -h](documentation/images/windows/gem-h.png)
+
 
 ##Resources used on this project and helpful links
 
