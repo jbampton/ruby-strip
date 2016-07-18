@@ -432,6 +432,13 @@ One-Click rubyinstaller and DevKit - https://bintray.com/oneclick/rubyinstaller
 
 MinGW - Minimalist GNU for Windows - http://www.mingw.org/
 
+Bundler RubyGem - http://bundler.io/
+
+fileutils RubyGem -  https://rubygems.org/gems/fileutils/ 
+
+RuboCop RubyGem - https://github.com/bbatsov/rubocop
+
+
 ##List of Ruby
 
 https://github.com/ruby/ruby
