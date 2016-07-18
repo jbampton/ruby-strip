@@ -303,6 +303,10 @@ To run this program on Windows you will need to install the following software i
  
 You can use the RubyInstaller for Windows - http://rubyinstaller.org/ to install Ruby.
 
+Before using the RubyInstaller you should check the integrity of the RubyInstaller against its hash on https://bintray.com/oneclick/rubyinstaller/rubyinstaller
+
+To do this on windows you can use the builtin Windows CertUtil command.
+
 After you have installed Ruby try out the next two commands:
 
 ###ruby -v
