@@ -47,9 +47,9 @@ This should copy the folder to the 'output' directory.  There are currently two 
 
 The two commands that were run to produce the sample output were:
 
-  - ruby ruby-strip.rb php-test-files 
+  - ruby ruby_strip.rb php-test-files 
 
-  - ruby ruby-strip.rb random-test-files
+  - ruby ruby_strip.rb random-test-files
   
 If you are still to afraid to dive in and try Ruby, how about some easy free web based interactive courses on basic tech:
 

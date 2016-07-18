@@ -16,15 +16,15 @@ end
 
 def strip_white_space(src)
   Dir.glob("#{src}/**/*.*").each do |filename|
-    copy_with_path(filename,"output/#{filename}")
+    copy_with_path(filename, "output/#{filename}")
   end
 
   Dir.glob('output/**/*.*').each do |filename|
-    file = File.open(filename,'r')
+    file = File.open(filename, 'r')
     contents = file.read
-    strip_contents = contents.gsub(/(\s*)(\S*.*)(\S)(\s*)/m){|m| "#{$2}#{$3}" }
+    strip_contents = contents.gsub(/(\s*)(\S*.*)(\S)(\s*)/m){ "#{$2}#{$3}" }
     file.close
-    file =  File.open(filename,'w')
+    file = File.open(filename, 'w')
     file.write(strip_contents)
     file.close
   end

@@ -5,13 +5,16 @@ def copy_with_path(src, dst)
   FileUtils.cp(src, dst)
 end
 
-def strip_white_space(src)
+def strip_space(src)
   Dir.glob("#{src}/**/*.*").each do |filename|
-    copy_with_path(filename,"output/#{filename}")
+    copy_with_path(filename, "output/#{filename}")
   end
+  strip_white_space
+end
 
+def strip_white_space
   Dir.glob('output/**/*.*').each do |filename|
-    file = File.open(filename,'r+')
+    file = File.open(filename, 'r+')
     contents = file.read
     strip_contents = contents.strip
     file.rewind
@@ -26,5 +29,5 @@ if ARGV[0].nil?
 Relative to this file #{File.basename(__FILE__)} please provide the directory -  path/to/dir - to check for excess whitespace.
 EOF
 else
-  strip_white_space(ARGV[0])
+  strip_space(ARGV[0])
 end
