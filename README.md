@@ -153,7 +153,7 @@ Using bundler run:
 
 ###gem install bundler
 
-I've added a GemFile so you can use bundler from this projects directory to run:
+I've added a Gemfile so you can use bundler from this projects directory to run:
 
 ###bundle install
 
