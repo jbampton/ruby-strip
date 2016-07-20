@@ -4,7 +4,8 @@ This program uses **[Ruby Power](https://www.ruby-lang.org/en/documentation/succ
 
 To jump ahead and setup, choose your OS below:
 
- - [OS X](#mac-os-x-instructions)
+ - [OS X](#os-x-instructions)
+ - [OS X installation requirements](#os-x-installation-requirements)
  - [Windows](#windows-instructions)
 
 [Matz](https://twitter.com/matz_translated) made Ruby fun to learn so come and check out the [Ruby in 4 seconds](https://youtu.be/ayx4fASYkZU) video.
@@ -41,7 +42,7 @@ interesting to build a command line tool in Ruby (my first command line tool in 
     
 To run simply clone this repo and then open a terminal and navigate to the directory where you cloned to.
 
-Then simply run: ruby ruby-strip.rb path/to/folder 
+Then simply run: ruby ruby_strip.rb path/to/folder 
 
 This should copy the folder to the 'output' directory.  There are currently two test folders for input and output.
 
@@ -64,7 +65,7 @@ And then come train in the [REAL DOJO](http://www.codewars.com) and reach your h
 So now that you are **Ruby Gung-Ho**, the new Ruby [Bruce Lee](https://en.wikipedia.org/wiki/Bruce_Lee) on the street, try the instructions below.
 
 
-#Mac OS X instructions
+#OS X instructions
 
 [Matz](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto) made Ruby easy to learn, so don't be worried and first check out a short Ruby YouTube video I created.
 
@@ -123,7 +124,7 @@ Then entering the next line:
 ###require 'irb/completion'
 
 
-##Mac OS X installation requirements
+##OS X installation requirements
 
  - Homebrew
  - Imagemagick
@@ -146,7 +147,7 @@ The 'fileutils' gem requires the [rmagick](https://rubygems.org/gems/rmagick) ge
 
 ![gem dependency](documentation/images/terminal/ruby/gem-dependency.png)
 
-You can either install [Bundler](http://bundler.io/) which will install the required gems from the GemFile or install the required gems manually.
+You can either install [Bundler](http://bundler.io/) which will install the required gems from the Gemfile or install the required gems manually.
 
 Using bundler run:
 
@@ -363,7 +364,7 @@ When you are installing Imagemagick on the - Select Additional Tasks page of the
 
 Next you will need to install the "fileutils" gem
 
-Since this project has a GemFile, the easiest way to install the projects requirements is to run:
+Since this project has a Gemfile, the easiest way to install the projects requirements is to run:
 
 ###bundle install
 
