@@ -356,11 +356,29 @@ Interactive Ruby Shell or IRB should also be installed as seen below
 
 Next you will have to install the Ruby DevKit and then Imagemagick followed by the fileutils RubyGem.
 
-You can download Imagemagick at http://www.imagemagick.org/script/index.php
+You can download Imagemagick at http://www.imagemagick.org/script/index.php and if you like you can watch the [ImageMagick Windows installation video](https://www.youtube.com/watch?v=bKWDZb_Nkpo) on Youtube.
 
 When you are installing Imagemagick on the - Select Additional Tasks page of the installer, check the box for Install development headers and libraries for C and C++.
 
-![Imagemagick installer page 3](documentation/images/windows/imagemagick3.png)
+The following images show the steps in the ImageMagick Windows installation.
+
+![Imagemagick installer page 1](documentation/images/windows/imagemagick/imagemagick1.png)
+
+![Imagemagick installer page 2](documentation/images/windows/imagemagick/imagemagick2.png)
+
+![Imagemagick installer page 3](documentation/images/windows/imagemagick/imagemagick3.png)
+
+![Imagemagick installer page 4](documentation/images/windows/imagemagick/imagemagick4.png)
+
+![Imagemagick installer page 5](documentation/images/windows/imagemagick/imagemagick5.png)
+
+![Imagemagick installer page 6](documentation/images/windows/imagemagick/imagemagick6.png)
+
+![Imagemagick installer page 7](documentation/images/windows/imagemagick/imagemagick7.png)
+
+![Imagemagick installer page 8](documentation/images/windows/imagemagick/imagemagick8.png)
+
+![Imagemagick installer page 9](documentation/images/windows/imagemagick/imagemagick9.png)
 
 Next you will need to install the "fileutils" gem
 
