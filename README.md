@@ -2,10 +2,12 @@
 
 This program uses **[Ruby Power](https://www.ruby-lang.org/en/documentation/success-stories/)** to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on all things **[Ruby](https://www.ruby-lang.org/en/)**.  All the links in this README.md briefly explain some of the **[Ruby](https://github.com/ruby/ruby)** topics discussed.
 
-To jump ahead and setup, choose your OS below:
+Wait until this webpage fully loads and if you want to jump ahead, choose your topic below:
 
  - [OS X](#os-x-instructions)
  - [OS X installation requirements](#os-x-installation-requirements)
+ - [RVM](#rvm-usage)
+ - [Homebrew](#homebrew-usage)
  - [Windows](#windows-instructions)
 
 [Matz](https://twitter.com/matz_translated) made Ruby fun to learn so come and check out the [Ruby in 4 seconds](https://youtu.be/ayx4fASYkZU) video.
