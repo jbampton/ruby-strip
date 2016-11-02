@@ -1,4 +1,5 @@
 # Ruby white space strip command line application
+[&#8595;](#contributions)
 
 This program uses **[Ruby Power](https://www.ruby-lang.org/en/documentation/success-stories/)** to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on all things **[Ruby](https://www.ruby-lang.org/en/)**.  All the links in this README.md briefly explain some of the **[Ruby](https://github.com/ruby/ruby)** topics discussed.
 
