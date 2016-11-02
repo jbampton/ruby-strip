@@ -518,3 +518,5 @@ https://plus.google.com/communities/101878695540653445908
 
 ##Contributions
 Fork and pull request. Simple.
+
+[&#8593;](#ruby-white-space-strip-command-line-application) 
