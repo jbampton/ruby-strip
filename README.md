@@ -64,6 +64,7 @@ And then come train in the [REAL DOJO](http://www.codewars.com) and reach your h
 
 So now that you are **Ruby Gung-Ho**, the new Ruby [Bruce Lee](https://en.wikipedia.org/wiki/Bruce_Lee) on the street, try the instructions below.
 
+[&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 #OS X instructions
 
