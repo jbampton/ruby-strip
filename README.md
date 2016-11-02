@@ -16,7 +16,7 @@ Here's [Ruby Power](http://skillcrush.com/2015/02/02/37-rails-sites/) in five se
 
 **[Ruby](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)** was accepted as a [Japanese Industrial Standard](https://en.wikipedia.org/wiki/Japanese_Industrial_Standards) (JIS X 3017) in 2011[25] and an [international standard](http://www.iso.org/iso/home.html) (ISO/IEC 30170) in 2012.
 
-Ruby is growing in popularity and is currently ranked 11th on the [TIOBE Index](http://www.tiobe.com/tiobe_index).
+Ruby is growing in popularity and is currently ranked 13th on the [TIOBE Index](http://www.tiobe.com/tiobe_index).
 
 This program runs on the [command line](https://en.wikipedia.org/wiki/Command-line_interface) and accepts a single [parameter](https://en.wikipedia.org/wiki/Parameter_\(computer_programming\)), a folder [path](https://en.wikipedia.org/wiki/Path_\(computing) name.
 
@@ -124,6 +124,8 @@ Then entering the next line:
 
 ###require 'irb/completion'
 
+[&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
+
 
 ##OS X installation requirements
 
@@ -168,6 +170,8 @@ and
 
 ###gem install fileutils
 
+[&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
+
 
 ##Gem commands 
 
@@ -208,6 +212,8 @@ which leads us to:
 ![gem update](documentation/images/terminal/ruby/gem-update.png)
 
 Depending on number of gems installed, your gem update maybe shorter and I have not displayed the full output from the command.
+
+[&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 
 ##RVM Usage
@@ -292,6 +298,8 @@ You can read more about the which command by entering:
 
 ![man which](documentation/images/terminal/general/man-which.png)
 
+[&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
+
 
 ##Homebrew usage
 
@@ -321,6 +329,7 @@ Open a terminal and type:
 ###brew list
 ![brew list](documentation/images/terminal/homebrew/brew_list.png)
 
+[&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 
 #Windows instructions
@@ -393,6 +402,7 @@ Otherwise you can install the gems manually by:
 
 ###gem install rubocop
 
+[&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 ##Additional gem commands
 
@@ -411,6 +421,8 @@ To bring up more information on the gem command type:
 ###gem -h
 
 ![gem -h](documentation/images/windows/gem-h.png)
+
+[&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 
 ##Resources used on this project and helpful links
@@ -481,6 +493,8 @@ fileutils RubyGem - https://rubygems.org/gems/fileutils/
 
 RuboCop RubyGem - https://github.com/bbatsov/rubocop
 
+[&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
+
 
 ##List of Ruby
 
@@ -493,6 +507,8 @@ https://twitter.com/yukihiro_matz
 https://www.facebook.com/pages/Yukihiro-Matsumoto/109410772411674
 
 https://plus.google.com/communities/101878695540653445908
+
+[&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 
 ##Contributions
