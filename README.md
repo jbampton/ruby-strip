@@ -9,6 +9,9 @@ Wait until this webpage fully loads and if you want to jump ahead, choose your t
  - [RVM](#rvm-usage)
  - [Homebrew](#homebrew-usage)
  - [Windows](#windows-instructions)
+ - [Resources used on this project and helpful links](#resources-used-on-this-project-and-helpful-links)
+ - [List of Ruby](#list-of-ruby)
+ - [Contributions](#contributions)
 
 [Matz](https://twitter.com/matz_translated) made Ruby fun to learn so come and check out the [Ruby in 4 seconds](https://youtu.be/ayx4fASYkZU) video.
 
