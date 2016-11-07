@@ -1,57 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Ruby-strip by jbampton</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
     <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    <title>Ruby-strip by jbampton</title>
   </head>
+
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/jbampton/ruby-strip">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/jbampton/ruby-strip/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/jbampton/ruby-strip/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+    <header>
+      <div class="inner">
+        <h1>Ruby-strip</h1>
+        <h2>Strip leading and trailing white space (whitespace) from any folder of files - Ruby command line application</h2>
+        <a href="https://github.com/jbampton/ruby-strip" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
 
-    <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1>Ruby-strip</h1>
-          <p>Strip leading and trailing white space (whitespace) from any folder of files - Ruby command line application</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/jbampton">jbampton</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
-
-        <h1>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
 <a id="ruby-white-space-strip-command-line-application" class="anchor" href="#ruby-white-space-strip-command-line-application" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ruby white space strip command line application</h1>
 
-<p>This repository is about all things <a href="https://www.ruby-lang.org/en/">Ruby</a>.  All the links in this README.md briefly explain some of the <a href="https://github.com/ruby/ruby">Ruby</a> topics discussed.</p>
+<p>This program uses <strong><a href="https://www.ruby-lang.org/en/documentation/success-stories/">Ruby Power</a></strong> to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on all things <strong><a href="https://www.ruby-lang.org/en/">Ruby</a></strong>.  All the links in this README.md briefly explain some of the <strong><a href="https://github.com/ruby/ruby">Ruby</a></strong> topics discussed.</p>
 
-<p>Hey come and check out the <a href="https://youtu.be/ayx4fASYkZU">Ruby in 4 seconds</a> video.</p>
+<p>Wait until this webpage fully loads and if you want to jump ahead, choose your topic below:</p>
 
-<p>The actual program uses <a href="https://www.ruby-lang.org/en/documentation/success-stories/">Ruby Power</a> to strip whitespace from files, and the accompanying documentation provided aims at being an easy to follow tutorial on Ruby. </p>
+<ul>
+<li><a href="#os-x-instructions">OS X</a></li>
+<li><a href="#os-x-installation-requirements">OS X installation requirements</a></li>
+<li><a href="#rvm-usage">RVM</a></li>
+<li><a href="#homebrew-usage">Homebrew</a></li>
+<li><a href="#windows-instructions">Windows</a></li>
+<li><a href="#resources-used-on-this-project-and-helpful-links">Resources used on this project and helpful links</a></li>
+<li><a href="#list-of-ruby">List of Ruby</a></li>
+<li><a href="#contributions">Contributions</a></li>
+</ul>
 
-<p>For those of you who don't know much about <a href="http://ruby-doc.org">Ruby</a>....</p>
+<p><a href="https://twitter.com/matz_translated">Matz</a> made Ruby fun to learn so come and check out the <a href="https://youtu.be/ayx4fASYkZU">Ruby in 4 seconds</a> video.</p>
+
+<p>For those of you who don't know much about <a href="http://ruby-doc.org">Ruby</a>...</p>
 
 <p>Here's <a href="http://skillcrush.com/2015/02/02/37-rails-sites/">Ruby Power</a> in five seconds from <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby Wikipedia</a></p>
 
-<p><a href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579">Ruby</a> was accepted as a <a href="https://en.wikipedia.org/wiki/Japanese_Industrial_Standards">Japanese Industrial Standard</a> (JIS X 3017) in 2011[25] and an <a href="https://en.wikipedia.org/wiki/Japanese_Industrial_Standards">international standard</a> (ISO/IEC 30170) in 2012.</p>
+<p><strong><a href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579">Ruby</a></strong> was accepted as a <a href="https://en.wikipedia.org/wiki/Japanese_Industrial_Standards">Japanese Industrial Standard</a> (JIS X 3017) in 2011[25] and an <a href="http://www.iso.org/iso/home.html">international standard</a> (ISO/IEC 30170) in 2012.</p>
+
+<p>Ruby is growing in popularity and is currently ranked 13th on the <a href="http://www.tiobe.com/tiobe_index">TIOBE Index</a>.</p>
 
 <p>This program runs on the <a href="https://en.wikipedia.org/wiki/Command-line_interface">command line</a> and accepts a single <a href="https://en.wikipedia.org/wiki/Parameter_(computer_programming)">parameter</a>, a folder <a href="https://en.wikipedia.org/wiki/Path_(computing">path</a> name.</p>
 
@@ -72,42 +75,48 @@
 - *.rb
 </code></pre>
 
-<p>Coming from a <a href="http://php.net">PHP</a> background where leading and trailing white space can sometimes be problematic I thought it would be 
+<p>Coming from a <a href="http://php.net">PHP</a> background where leading and trailing white space can sometimes be <a href="https://www.google.com.au/search?client=opera&amp;q=php+leading+whitespace+problem&amp;sourceid=opera&amp;ie=UTF-8&amp;oe=UTF-8">problematic</a> I thought it would be 
 interesting to build a command line tool in Ruby (my first command line tool in Ruby)</p>
 
 <p>To run simply clone this repo and then open a terminal and navigate to the directory where you cloned to.</p>
 
-<p>Then simply run: ruby ruby-strip.rb path/to/folder </p>
+<p>Then simply run: ruby ruby_strip.rb path/to/folder </p>
 
 <p>This should copy the folder to the 'output' directory.  There are currently two test folders for input and output.</p>
 
 <p>The two commands that were run to produce the sample output were:</p>
 
 <ul>
-<li><p>ruby ruby-strip.rb php-test-files </p></li>
-<li><p>ruby ruby-strip.rb random-test-files</p></li>
+<li><p>ruby ruby_strip.rb php-test-files </p></li>
+<li><p>ruby ruby_strip.rb random-test-files</p></li>
 </ul>
 
-<p>If you are still to afraid to dive in and try Ruby, how about a couple easy free web based interactive courses on Ruby:</p>
+<p>If you are still to afraid to dive in and try Ruby, how about some easy free web based interactive courses on basic tech:</p>
 
 <ul>
 <li>
 <a href="http://tryruby.org/levels/1/challenges/0">Try Ruby</a> </li>
-<li><a href="https://www.codecademy.com/learn/ruby">Codecademy Ruby</a></li>
+<li>
+<a href="https://www.codecademy.com/learn/ruby">Codecademy Ruby</a> </li>
+<li><a href="https://www.codecademy.com/learn/learn-the-command-line">Learn the command line</a></li>
+<li><a href="https://www.codeschool.com/courses/try-git">Try Git</a></li>
+<li><a href="https://www.codecademy.com/learn/learn-git">Learn Git</a></li>
 </ul>
 
-<p>And then come train in the <a href="http://www.codewars.com">REAL DOJO</a> and reach your highest potential, become faster, stronger and more powerful......JEDI MASTER LEVEL.....!??!?!!  </p>
+<p>And then come train in the <a href="http://www.codewars.com">REAL DOJO</a> and reach your highest potential, become <strong>faster</strong>, <strong>stronger</strong> and <strong>more powerful</strong>......<strong>JEDI MASTER LEVEL</strong>.....<strong>!??!?!!</strong>  </p>
 
-<p>So now that you are Ruby Gung-Ho, the new Ruby <a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a> on the street, try the instructions below.</p>
+<p>So now that you are <strong>Ruby Gung-Ho</strong>, the new Ruby <a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a> on the street, try the instructions below.</p>
 
-<h2>
-<a id="mac-os-x-instructions" class="anchor" href="#mac-os-x-instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mac OS X instructions</h2>
+<p><a href="#ruby-white-space-strip-command-line-application">↑</a> <a href="#contributions">↓</a></p>
 
-<p><a href="https://en.wikipedia.org/wiki/Yukihiro_Matsumoto">Matz</a> made Ruby fun and easy to learn, so don't be worried and first check out a short Ruby YouTube video I created.</p>
+<h1>
+<a id="os-x-instructions" class="anchor" href="#os-x-instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OS X instructions</h1>
+
+<p><a href="https://en.wikipedia.org/wiki/Yukihiro_Matsumoto">Matz</a> made Ruby easy to learn, so don't be worried and first check out a short Ruby YouTube video I created.</p>
 
 <p><a href="https://youtu.be/2ei7S0FU65E">Ruby in 29 seconds</a></p>
 
-<p>As mentioned this program uses Ruby so lets see if its installed on your machine, open a terminal and type:</p>
+<p>Most Macs have Ruby preinstalled so lets see if its installed on your machine, open a terminal and type:</p>
 
 <h3>
 <a id="ruby--v" class="anchor" href="#ruby--v" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
@@ -115,6 +124,13 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 <p><img src="documentation/images/terminal/ruby/ruby-v.png" alt="ruby -v"></p>
 
 <p>To find out more about Ruby type:</p>
+
+<h3>
+<a id="ruby---help" class="anchor" href="#ruby---help" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby --help</h3>
+
+<p><img src="documentation/images/terminal/ruby/ruby--help.png" alt="ruby --help"></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Man_page">man pages</a> contain a lot of information about programs.</p>
 
 <h3>
 <a id="man-ruby" class="anchor" href="#man-ruby" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>man ruby</h3>
@@ -132,7 +148,7 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 
 <p><img src="documentation/images/terminal/ruby/man-ri.png" alt="man ri"></p>
 
-<p>Ruby also ships with a fantastic tool called IRB.  IRB is the interactive Ruby console where you can test out your Ruby commands inside a terminal.  </p>
+<p>Ruby also ships with a fantastic tool called IRB.  IRB is the interactive Ruby console where you can test out your Ruby commands inside a terminal.  Watch a <a href="https://www.youtube.com/watch?v=CpFgz5Iq3qA">short video on Youtube</a> that I made on IRB.</p>
 
 <h3>
 <a id="man-irb" class="anchor" href="#man-irb" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>man irb</h3>
@@ -148,11 +164,33 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 
 <p>You type 'exit' to stop using irb and return to the standard terminal.</p>
 
-<p>The code uses the 'fileutils' gem so you must install it, if not already installed.  The 'fileutils' gem requires imagemagick to be installed.</p>
+<p>You can add 'tab' completion to irb by creating a .irbrc file</p>
 
-<p>I used <a href="http://brew.sh">Homebrew</a> to install <a href="http://www.imagemagick.org/script/index.php">imagemagick</a>.  Homebrew is the missing package manager for OS X.  It installs the stuff you need that Apple didn't.</p>
+<p>You can use the nano editor to create this by entering:</p>
 
-<p>Under the hood Homebrew and <a href="http://brewformulas.org">Homebrew formula</a> are all Ruby.  For example with Homebrew I installed <a href="https://www.winehq.org">Wine</a> and then was able to get Notepad++ running on OS X....</p>
+<h3>
+<a id="nano-irbrc" class="anchor" href="#nano-irbrc" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>nano .irbrc</h3>
+
+<p>Then entering the next line:</p>
+
+<h3>
+<a id="require-irbcompletion" class="anchor" href="#require-irbcompletion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>require 'irb/completion'</h3>
+
+<p><a href="#ruby-white-space-strip-command-line-application">↑</a> <a href="#contributions">↓</a></p>
+
+<h2>
+<a id="os-x-installation-requirements" class="anchor" href="#os-x-installation-requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OS X installation requirements</h2>
+
+<ul>
+<li>Homebrew</li>
+<li>Imagemagick</li>
+<li>Bundler - not a fixed requirement</li>
+<li>fileutils, rubocop gems </li>
+</ul>
+
+<p>I used <a href="http://brew.sh">Homebrew</a> to install imagemagick.  Homebrew is the missing package manager for OS X.  It installs the stuff you need that Apple didn't. There is a short Homebrew usage section towards the bottom of this README.</p>
+
+<p>Under the hood Homebrew and <a href="http://brewformulas.org">Homebrew formula</a> are all Ruby.  For example with Homebrew I installed <a href="https://www.winehq.org">Wine</a> and then was able to get <a href="https://notepad-plus-plus.org/">Notepad++</a> running on OS X....</p>
 
 <p>The command to install imagemagick with Homebrew would be:</p>
 
@@ -161,10 +199,40 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 
 <p><img src="documentation/images/terminal/homebrew/brew-install-imagemagick.png" alt="brew install imagemagick"></p>
 
-<p>Open a terminal and type: </p>
+<p>The code uses two RubyGems, <a href="https://rubygems.org/gems/fileutils">fileutils</a> and <a href="https://github.com/bbatsov/rubocop">rubocop</a> so you must install them, if not already installed.</p>
+
+<p>The 'fileutils' gem requires the <a href="https://rubygems.org/gems/rmagick">rmagick</a> gem to be installed which requries <a href="http://www.imagemagick.org/script/index.php">imagemagick</a> to be installed.</p>
+
+<p><img src="documentation/images/terminal/ruby/gem-dependency.png" alt="gem dependency"></p>
+
+<p>You can either install <a href="http://bundler.io/">Bundler</a> which will install the required gems from the Gemfile or install the required gems manually.</p>
+
+<p>Using bundler run:</p>
+
+<h3>
+<a id="gem-install-bundler" class="anchor" href="#gem-install-bundler" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem install bundler</h3>
+
+<p>I've added a Gemfile so you can use bundler from this projects directory to run:</p>
+
+<h3>
+<a id="bundle-install" class="anchor" href="#bundle-install" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>bundle install</h3>
+
+<p>which will install the required gems.</p>
+
+<p>Alternatively if not using bundler open a terminal and type: </p>
+
+<h3>
+<a id="gem-install-rubocop" class="anchor" href="#gem-install-rubocop" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem install rubocop</h3>
+
+<p>and</p>
 
 <h3>
 <a id="gem-install-fileutils" class="anchor" href="#gem-install-fileutils" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem install fileutils</h3>
+
+<p><a href="#ruby-white-space-strip-command-line-application">↑</a> <a href="#contributions">↓</a></p>
+
+<h2>
+<a id="gem-commands" class="anchor" href="#gem-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Gem commands</h2>
 
 <p>To see the current Gems that are installed on your system type: </p>
 
@@ -208,6 +276,8 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 <p><img src="documentation/images/terminal/ruby/gem-update.png" alt="gem update"></p>
 
 <p>Depending on number of gems installed, your gem update maybe shorter and I have not displayed the full output from the command.</p>
+
+<p><a href="#ruby-white-space-strip-command-line-application">↑</a> <a href="#contributions">↓</a></p>
 
 <h2>
 <a id="rvm-usage" class="anchor" href="#rvm-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RVM Usage</h2>
@@ -292,6 +362,22 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 
 <p><img src="documentation/images/terminal/rvm/rvm-use-ruby-2.2.1.png" alt="rvm use ruby-2.2.1"></p>
 
+<p>You can also enter: </p>
+
+<h3>
+<a id="which-ruby" class="anchor" href="#which-ruby" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>which ruby</h3>
+
+<p><img src="documentation/images/terminal/ruby/which-ruby.png" alt="which ruby"></p>
+
+<p>You can read more about the which command by entering:</p>
+
+<h3>
+<a id="man-which" class="anchor" href="#man-which" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>man which</h3>
+
+<p><img src="documentation/images/terminal/general/man-which.png" alt="man which"></p>
+
+<p><a href="#ruby-white-space-strip-command-line-application">↑</a> <a href="#contributions">↓</a></p>
+
 <h2>
 <a id="homebrew-usage" class="anchor" href="#homebrew-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Homebrew usage</h2>
 
@@ -328,6 +414,113 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 <a id="brew-list" class="anchor" href="#brew-list" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>brew list</h3>
 
 <p><img src="documentation/images/terminal/homebrew/brew_list.png" alt="brew list"></p>
+
+<p><a href="#ruby-white-space-strip-command-line-application">↑</a> <a href="#contributions">↓</a></p>
+
+<h1>
+<a id="windows-instructions" class="anchor" href="#windows-instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Windows instructions</h1>
+
+<p>To run this program on Windows you will need to install the following software in this order:</p>
+
+<ul>
+<li>RubyInstaller</li>
+<li>Ruby DevKit</li>
+<li>Imagemagick</li>
+<li>Bundler - optional</li>
+<li>fileutils and rubocop gems</li>
+</ul>
+
+<p>You can use the RubyInstaller for Windows - <a href="http://rubyinstaller.org/">http://rubyinstaller.org/</a> to install Ruby.</p>
+
+<p>Before using the RubyInstaller you should check the integrity of the RubyInstaller against its hash on <a href="https://bintray.com/oneclick/rubyinstaller/rubyinstaller">https://bintray.com/oneclick/rubyinstaller/rubyinstaller</a></p>
+
+<p>To do this on windows you can use the builtin Windows CertUtil command.</p>
+
+<p>After you have installed Ruby try out the next two commands:</p>
+
+<h3>
+<a id="ruby--v-5" class="anchor" href="#ruby--v-5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -v</h3>
+
+<p><img src="documentation/images/windows/ruby-v.png" alt="ruby -v"></p>
+
+<h3>
+<a id="ruby--h" class="anchor" href="#ruby--h" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ruby -h</h3>
+
+<p><img src="documentation/images/windows/ruby-h.png" alt="ruby -h"></p>
+
+<p>Interactive Ruby Shell or IRB should also be installed as seen below</p>
+
+<h3>
+<a id="irb-1" class="anchor" href="#irb-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>irb</h3>
+
+<p><img src="documentation/images/windows/irb.png" alt="irb"></p>
+
+<p>Next you will have to install the Ruby DevKit and then Imagemagick followed by the fileutils RubyGem.</p>
+
+<p>You can download Imagemagick at <a href="http://www.imagemagick.org/script/index.php">http://www.imagemagick.org/script/index.php</a> and if you like you can watch the <a href="https://www.youtube.com/watch?v=bKWDZb_Nkpo">ImageMagick Windows installation video</a> on Youtube.</p>
+
+<p>When you are installing Imagemagick on the - Select Additional Tasks page of the installer, check the box for Install development headers and libraries for C and C++.</p>
+
+<p>The following images show the steps in the ImageMagick Windows installation.</p>
+
+<p><img src="documentation/images/windows/imagemagick/imagemagick1.png" alt="Imagemagick installer page 1"></p>
+
+<p><img src="documentation/images/windows/imagemagick/imagemagick2.png" alt="Imagemagick installer page 2"></p>
+
+<p><img src="documentation/images/windows/imagemagick/imagemagick3.png" alt="Imagemagick installer page 3"></p>
+
+<p><img src="documentation/images/windows/imagemagick/imagemagick4.png" alt="Imagemagick installer page 4"></p>
+
+<p><img src="documentation/images/windows/imagemagick/imagemagick5.png" alt="Imagemagick installer page 5"></p>
+
+<p><img src="documentation/images/windows/imagemagick/imagemagick6.png" alt="Imagemagick installer page 6"></p>
+
+<p><img src="documentation/images/windows/imagemagick/imagemagick7.png" alt="Imagemagick installer page 7"></p>
+
+<p><img src="documentation/images/windows/imagemagick/imagemagick8.png" alt="Imagemagick installer page 8"></p>
+
+<p><img src="documentation/images/windows/imagemagick/imagemagick9.png" alt="Imagemagick installer page 9"></p>
+
+<p>Next you will need to install the "fileutils" gem</p>
+
+<p>Since this project has a Gemfile, the easiest way to install the projects requirements is to run:</p>
+
+<h3>
+<a id="bundle-install-1" class="anchor" href="#bundle-install-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>bundle install</h3>
+
+<p>Otherwise you can install the gems manually by:</p>
+
+<h3>
+<a id="gem-install-fileutils-1" class="anchor" href="#gem-install-fileutils-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem install fileutils</h3>
+
+<h3>
+<a id="gem-install-rubocop-1" class="anchor" href="#gem-install-rubocop-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem install rubocop</h3>
+
+<p><a href="#ruby-white-space-strip-command-line-application">↑</a> <a href="#contributions">↓</a></p>
+
+<h2>
+<a id="additional-gem-commands" class="anchor" href="#additional-gem-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additional gem commands</h2>
+
+<p>To see the current Gems that are installed on your system type: </p>
+
+<h3>
+<a id="gem-list" class="anchor" href="#gem-list" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem list</h3>
+
+<p><img src="documentation/images/windows/gem-install-gem-list.png" alt="gem install and gem list"></p>
+
+<h3>
+<a id="gem-dependency-fileutils" class="anchor" href="#gem-dependency-fileutils" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem dependency fileutils</h3>
+
+<p><img src="documentation/images/windows/gem-dependency-fileutils.png" alt="gem dependency fileutils"></p>
+
+<p>To bring up more information on the gem command type:</p>
+
+<h3>
+<a id="gem--h-1" class="anchor" href="#gem--h-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gem -h</h3>
+
+<p><img src="documentation/images/windows/gem-h.png" alt="gem -h"></p>
+
+<p><a href="#ruby-white-space-strip-command-line-application">↑</a> <a href="#contributions">↓</a></p>
 
 <h2>
 <a id="resources-used-on-this-project-and-helpful-links" class="anchor" href="#resources-used-on-this-project-and-helpful-links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources used on this project and helpful links</h2>
@@ -387,10 +580,59 @@ interesting to build a command line tool in Ruby (my first command line tool in 
 <p>Wine - <a href="https://www.winehq.org">https://www.winehq.org</a></p>
 
 <p>PHP - <a href="http://php.net">http://php.net</a></p>
-      </section>
 
+<p>One-Click rubyinstaller and DevKit - <a href="https://bintray.com/oneclick/rubyinstaller">https://bintray.com/oneclick/rubyinstaller</a></p>
+
+<p>MinGW - Minimalist GNU for Windows - <a href="http://www.mingw.org/">http://www.mingw.org/</a></p>
+
+<p>Bundler RubyGem - <a href="http://bundler.io/">http://bundler.io/</a></p>
+
+<p>fileutils RubyGem - <a href="https://rubygems.org/gems/fileutils/">https://rubygems.org/gems/fileutils/</a></p>
+
+<p>RuboCop RubyGem - <a href="https://github.com/bbatsov/rubocop">https://github.com/bbatsov/rubocop</a></p>
+
+<p><a href="#ruby-white-space-strip-command-line-application">↑</a> <a href="#contributions">↓</a></p>
+
+<h2>
+<a id="list-of-ruby" class="anchor" href="#list-of-ruby" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>List of Ruby</h2>
+
+<p><a href="https://github.com/ruby/ruby">https://github.com/ruby/ruby</a></p>
+
+<p><a href="https://twitter.com/matz_translated">https://twitter.com/matz_translated</a></p>
+
+<p><a href="https://twitter.com/yukihiro_matz">https://twitter.com/yukihiro_matz</a></p>
+
+<p><a href="https://www.facebook.com/pages/Yukihiro-Matsumoto/109410772411674">https://www.facebook.com/pages/Yukihiro-Matsumoto/109410772411674</a></p>
+
+<p><a href="https://plus.google.com/communities/101878695540653445908">https://plus.google.com/communities/101878695540653445908</a></p>
+
+<p><a href="#ruby-white-space-strip-command-line-application">↑</a> <a href="#contributions">↓</a></p>
+
+<h2>
+<a id="contributions" class="anchor" href="#contributions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributions</h2>
+
+<p>Fork and pull request. Simple.</p>
+
+<p><a href="#ruby-white-space-strip-command-line-application">↑</a> </p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/jbampton/ruby-strip/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/jbampton/ruby-strip/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/jbampton/ruby-strip"></a> is maintained by <a href="https://github.com/jbampton">jbampton</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+
+  
   </body>
 </html>
