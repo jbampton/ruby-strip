@@ -145,7 +145,7 @@ Under the hood Homebrew and [Homebrew formula](http://brewformulas.org) are all 
 
 The command to install imagemagick with Homebrew would be:
 
-###brew install imagemagick
+### brew install imagemagick
 
 ![brew install imagemagick](documentation/images/terminal/homebrew/brew-install-imagemagick.png)
 
@@ -287,7 +287,7 @@ To switch back to using an RVM Ruby type:
 
 ### rvm use ruby-2.2.1
 
-###ruby -v
+### ruby -v
 
 ![rvm use ruby-2.2.1](documentation/images/terminal/rvm/rvm-use-ruby-2.2.1.png)
 
@@ -365,7 +365,7 @@ After you have installed Ruby try out the next two commands:
 
 Interactive Ruby Shell or IRB should also be installed as seen below
 
-###irb 
+### irb 
 
 ![irb](documentation/images/windows/irb.png)
 
