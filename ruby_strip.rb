@@ -1,5 +1,8 @@
 require 'fileutils'
 
+##
+# entry point function calls the two other worker functions
+
 def strip_space(src)
   Dir.glob("#{src}/**/*.*").each do |filename|
     copy_with_path(filename, "output/#{filename}")
@@ -7,10 +10,17 @@ def strip_space(src)
   strip_white_space
 end
 
+##
+# function that copies the folder of input files to the
+# output folder. Creates the directories if they don't exist
+
 def copy_with_path(src, dst)
   FileUtils.mkdir_p(File.dirname(dst))
   FileUtils.cp(src, dst)
 end
+
+##
+# Function that strips that white space from each file
 
 def strip_white_space
   Dir.glob('output/**/*.*').each do |filename|
