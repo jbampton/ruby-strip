@@ -1,0 +1,8 @@
+title: Ruby-strip
+description: Strip leading and trailing white space (whitespace) from any folder of files - Ruby command line application
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-architect
+
+gems:
+  - jekyll-mentions
