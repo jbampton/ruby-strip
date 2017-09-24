@@ -71,7 +71,7 @@ So now that you are **Ruby Gung-Ho**, the new Ruby [Bruce Lee](https://en.wikipe
 
 [&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
-#OS X instructions
+# OS X instructions
 
 [Matz](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto) made Ruby easy to learn, so don't be worried and first check out a short Ruby YouTube video I created.
 
@@ -79,19 +79,19 @@ So now that you are **Ruby Gung-Ho**, the new Ruby [Bruce Lee](https://en.wikipe
 
 Most Macs have Ruby preinstalled so lets see if its installed on your machine, open a terminal and type:
 
-###ruby -v
+### ruby -v
 
 ![ruby -v](documentation/images/terminal/ruby/ruby-v.png)
 
 To find out more about Ruby type:
 
-###ruby --help
+### ruby --help
 
 ![ruby --help](documentation/images/terminal/ruby/ruby--help.png)
 
 [man pages](https://en.wikipedia.org/wiki/Man_page) contain a lot of information about programs.
 
-###man ruby
+### man ruby
 
 ![man ruby](documentation/images/terminal/ruby/man-ruby.png)
 
@@ -101,19 +101,19 @@ Ruby also ships with 'ri' a tool used to display information about Ruby Classes,
 
 A lot of people don't know 'ri' exists and use google search instead.
 
-###man ri
+### man ri
 
 ![man ri](documentation/images/terminal/ruby/man-ri.png)
 
 Ruby also ships with a fantastic tool called IRB.  IRB is the interactive Ruby console where you can test out your Ruby commands inside a terminal.  Watch a [short video on Youtube](https://www.youtube.com/watch?v=CpFgz5Iq3qA) that I made on IRB.
 
-###man irb
+### man irb
 
 ![man irb](documentation/images/terminal/ruby/man-irb.png)
 
 And to use IRB type:
 
-###irb
+### irb
 
 ![irb](documentation/images/terminal/ruby/irb.png)
 
@@ -123,16 +123,16 @@ You can add 'tab' completion to irb by creating a .irbrc file
 
 You can use the nano editor to create this by entering:
 
-###nano .irbrc
+### nano .irbrc
 
 Then entering the next line:
 
-###require 'irb/completion'
+### require 'irb/completion'
 
 [&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 
-##OS X installation requirements
+## OS X installation requirements
 
  - Homebrew
  - Imagemagick
@@ -145,7 +145,7 @@ Under the hood Homebrew and [Homebrew formula](http://brewformulas.org) are all 
 
 The command to install imagemagick with Homebrew would be:
 
-###brew install imagemagick
+### brew install imagemagick
 
 ![brew install imagemagick](documentation/images/terminal/homebrew/brew-install-imagemagick.png)
 
@@ -159,36 +159,36 @@ You can either install [Bundler](http://bundler.io/) which will install the requ
 
 Using bundler run:
 
-###gem install bundler
+### gem install bundler
 
 I've added a Gemfile so you can use bundler from this projects directory to run:
 
-###bundle install
+### bundle install
 
 which will install the required gems.
 
 Alternatively if not using bundler open a terminal and type: 
 
-###gem install rubocop
+### gem install rubocop
 
 and
 
-###gem install fileutils
+### gem install fileutils
 
 [&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 
-##Gem commands 
+## Gem commands 
 
 To see the current Gems that are installed on your system type: 
 
-###gem list --local  
+### gem list --local  
 
 ![gem install fileutils](documentation/images/terminal/ruby/gem-install-fileutils.png)
 
 Another way to see the installed gems is to type: 
 
-###gem server
+### gem server
 
 ![gem server](documentation/images/terminal/ruby/gem-server.png)
 
@@ -198,7 +198,7 @@ This will bring up a locally served web page at http://localhost:8808/ listing i
 
 Type: 
 
-###gem -h  
+### gem -h  
 
 for more information on the gem command.
 
@@ -206,13 +206,13 @@ for more information on the gem command.
 
 Another important gem command is:
 
-###gem help commands
+### gem help commands
 
 ![gem help commands](documentation/images/terminal/ruby/gem-help-commands.png)
 
 which leads us to:
 
-###gem update
+### gem update
 
 ![gem update](documentation/images/terminal/ruby/gem-update.png)
 
@@ -221,7 +221,7 @@ Depending on number of gems installed, your gem update maybe shorter and I have 
 [&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 
-##RVM Usage
+## RVM Usage
 
 RVM is the Ruby Version Manager and it's developed mainly by [Michael Papis](https://github.com/mpapis) on GitHub at https://github.com/rvm/rvm.
  
@@ -229,27 +229,27 @@ RVM is a command line tool which allows you to easily install, manage and work w
 
 To find out more about RVM open a terminal and type:
 
-###man rvm
+### man rvm
 
 ![man rvm](documentation/images/terminal/rvm/man-rvm.png)
 
 Also you should enter the following command:
 
-###rvm version
+### rvm version
 
 ![rvm version](documentation/images/terminal/rvm/rvm-version.png)
  
 You will also want to keep rvm update to date so run:
  
-###rvm get stable
+### rvm get stable
 
 ![rvm get stable](documentation/images/terminal/rvm/rvm-get-stable.png) 
 
-###rvm list known
+### rvm list known
 
 ![rvm list known](documentation/images/terminal/rvm/rvm-list-known.png)
 
-###ruby -v 
+### ruby -v 
 
 ![ruby -v](documentation/images/terminal/ruby/ruby-v.png)
 
@@ -257,19 +257,19 @@ This will print the current default system installed ruby version.
 
 To install a new Ruby inside rvm, type:
 
-###rvm install ruby-2.2.1
+### rvm install ruby-2.2.1
 
 ![rvm install ruby 2.2.1](documentation/images/terminal/rvm/rvm-install-ruby-2.2.1.png)
 
 Entering the next command will show which Rubies are installed inside RVM
 
-###rvm list
+### rvm list
 
 ![rvm list](documentation/images/terminal/rvm/rvm-list.png)
 
 Followed by: 
 
-###ruby -v
+### ruby -v
 
 ![rvm ruby -v](documentation/images/terminal/rvm/rvm-ruby-v.png)
 
@@ -277,36 +277,36 @@ You can see the the RVM installed Ruby is now the system default.
 
 If you would like to switch back to the original system installed Ruby type:
 
-###rvm use system
+### rvm use system
 
-###ruby -v
+### ruby -v
 
 ![rvm use system](documentation/images/terminal/rvm/rvm-use-system.png)
 
 To switch back to using an RVM Ruby type:
 
-###rvm use ruby-2.2.1
+### rvm use ruby-2.2.1
 
-###ruby -v
+### ruby -v
 
 ![rvm use ruby-2.2.1](documentation/images/terminal/rvm/rvm-use-ruby-2.2.1.png)
 
 You can also enter: 
 
-###which ruby
+### which ruby
 
 ![which ruby](documentation/images/terminal/ruby/which-ruby.png)
 
 You can read more about the which command by entering:
 
-###man which
+### man which
 
 ![man which](documentation/images/terminal/general/man-which.png)
 
 [&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 
-##Homebrew usage
+## Homebrew usage
 
 [Homebrew](http://brew.sh) is an amazing package management system that installs the stuff you need that Apple didn't.
 
@@ -320,24 +320,24 @@ Once you have installed Homebrew you can run through the basic commands below.
 
 Open a terminal and type:
 
-###man brew
+### man brew
 ![man brew](documentation/images/terminal/homebrew/man_brew.png)
 
 **Before using Homebrew you should ensure it's up to date. Run the next command:**
 
-###brew doctor
+### brew doctor
 ![brew doctor](documentation/images/terminal/homebrew/brew_doctor.png)
 
-##brew update
+## brew update
 ![brew update](documentation/images/terminal/homebrew/brew_update.png)
 
-###brew list
+### brew list
 ![brew list](documentation/images/terminal/homebrew/brew_list.png)
 
 [&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 
-#Windows instructions
+# Windows instructions
 
 To run this program on Windows you will need to install the following software in this order:
 
@@ -355,17 +355,17 @@ To do this on windows you can use the builtin Windows CertUtil command.
 
 After you have installed Ruby try out the next two commands:
 
-###ruby -v
+### ruby -v
 
 ![ruby -v](documentation/images/windows/ruby-v.png)
 
-###ruby -h
+### ruby -h
 
 ![ruby -h](documentation/images/windows/ruby-h.png)
 
 Interactive Ruby Shell or IRB should also be installed as seen below
 
-###irb 
+### irb 
 
 ![irb](documentation/images/windows/irb.png)
 
@@ -399,38 +399,38 @@ Next you will need to install the "fileutils" gem
 
 Since this project has a Gemfile, the easiest way to install the projects requirements is to run:
 
-###bundle install
+### bundle install
 
 Otherwise you can install the gems manually by:
 
-###gem install fileutils
+### gem install fileutils
 
-###gem install rubocop
+### gem install rubocop
 
 [&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
-##Additional gem commands
+## Additional gem commands
 
 To see the current Gems that are installed on your system type: 
 
-###gem list 
+### gem list 
 
 ![gem install and gem list](documentation/images/windows/gem-install-gem-list.png)
 
-###gem dependency fileutils
+### gem dependency fileutils
 
 ![gem dependency fileutils](documentation/images/windows/gem-dependency-fileutils.png)
 
 To bring up more information on the gem command type:
 
-###gem -h
+### gem -h
 
 ![gem -h](documentation/images/windows/gem-h.png)
 
 [&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 
-##Resources used on this project and helpful links
+## Resources used on this project and helpful links
 
 Ruby Programming Language - https://www.ruby-lang.org/en/
 
@@ -501,7 +501,7 @@ RuboCop RubyGem - https://github.com/bbatsov/rubocop
 [&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 
-##List of Ruby
+## List of Ruby
 
 https://github.com/ruby/ruby
 
@@ -516,7 +516,7 @@ https://plus.google.com/communities/101878695540653445908
 [&#8593;](#ruby-white-space-strip-command-line-application) [&#8595;](#contributions)
 
 
-##Contributions
+## Contributions
 Fork and pull request. Simple.
 
 [&#8593;](#ruby-white-space-strip-command-line-application) 
